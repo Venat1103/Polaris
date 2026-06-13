@@ -1907,7 +1907,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPD2E001DRLR:TPD2E01DRLR"
+		(symbol "Polaris_symbols:TPD2E01DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3632,7 +3632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TPD2E001DRLR:TPD2E01DRLR")
+		(lib_id "Polaris_symbols:TPD2E01DRLR")
 		(at 129.54 76.2 0)
 		(unit 1)
 		(body_style 1)

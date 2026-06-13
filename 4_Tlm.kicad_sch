@@ -2432,7 +2432,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Ra-08H:Ai-Thinker_Ra-08H"
+		(symbol "Polaris_symbols:Ai-Thinker_Ra-08H"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3450,7 +3450,7 @@
 	)
 	(text "500mA"
 		(exclude_from_sim no)
-		(at 257.81 111.76 0)
+		(at 273.05 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6838,7 +6838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Ra-08H:Ai-Thinker_Ra-08H")
+		(lib_id "Polaris_symbols:Ai-Thinker_Ra-08H")
 		(at 246.38 92.71 0)
 		(mirror y)
 		(unit 1)
@@ -6860,8 +6860,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 246.38 92.71 0)
+		(property "Value" "Ra-08H"
+			(at 254 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
