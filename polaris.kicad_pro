@@ -814,9 +814,57 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_DVDD",
+          "name": "KLC_S4.2_DVDD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREG_VOUT",
+          "name": "KLC_S4.2_VREG_VOUT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
         }
       ],
-      "filter_string": "J",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -872,7 +920,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "J101",
+    "used_designators": "J101,CARD501,Card501,#PWR513",
     "variants": []
   },
   "sheets": [

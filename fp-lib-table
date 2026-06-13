@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "RYLR689") (type "KiCad") (uri "C:/Users/adity/KiCAD_Symbols_Footprints/RYLR689/RYLR689.pretty") (options "") (descr ""))
 	(lib (name "Ra-08H") (type "KiCad") (uri "C:/Users/adity/KiCAD_Symbols_Footprints/Ra-08H/Ra-08H.pretty") (options "") (descr ""))
+  (lib (name "EasyEDA_Lib")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
 )
