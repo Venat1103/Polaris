@@ -920,7 +920,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "#PWR430-436,D401-404,BZ401,R409-414,U406,Y402,Q401",
+    "used_designators": "#PWR430-436,#PWR519-521,D401-404,D502-504,BZ401,R409-414,R509-511,U406,Y402,Q401",
     "variants": []
   },
   "sheets": [
