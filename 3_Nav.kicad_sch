@@ -5578,8 +5578,8 @@
 		(uuid "95062e42-0fed-4d39-862b-c3c79053b0ec")
 	)
 	(rectangle
-		(start 51.562 51.816)
-		(end 19.304 76.708)
+		(start 19.304 51.816)
+		(end 51.562 76.708)
 		(stroke
 			(width 0)
 			(type default)
@@ -6635,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 60.96) (xy 49.53 60.96)
+			(xy 30.48 60.96) (xy 46.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9832,7 +9832,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180R"
 			(at 176.53 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,7 +9989,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180R"
 			(at 212.09 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10676,7 +10676,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 184.15 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,7 +10686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 184.15 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12292,7 +12292,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180R"
 			(at 212.09 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13444,7 +13444,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180R"
 			(at 176.53 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13897,7 +13897,7 @@
 		(dnp no)
 		(uuid "9621cc1f-63a7-4019-9ae2-f169588841b9")
 		(property "Reference" "J401"
-			(at 26.162 54.102 0)
+			(at 24.13 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13907,7 +13907,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 34.544 56.642 0)
+			(at 32.512 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15042,7 +15042,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 184.15 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15052,7 +15052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 184.15 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -16579,7 +16579,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 219.71 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16589,7 +16589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 219.71 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -17139,7 +17139,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 49.53 60.96 0)
+		(at 46.99 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17150,7 +17150,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc068e18-512e-4f8d-8348-6f1b6a7dc00e")
 		(property "Reference" "#PWR0421"
-			(at 49.53 64.77 0)
+			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17161,7 +17161,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 49.53 55.88 0)
+			(at 46.99 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17171,7 +17171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 60.96 0)
+			(at 46.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17182,7 +17182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 60.96 0)
+			(at 46.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17193,7 +17193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 49.53 60.96 0)
+			(at 46.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18037,7 +18037,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 219.71 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18047,7 +18047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 219.71 31.75 0)
 			(hide yes)
 			(show_name no)

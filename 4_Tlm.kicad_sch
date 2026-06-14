@@ -4018,10 +4018,6 @@
 		(uuid "9464ad8a-fca0-4459-b061-cb6badabc832")
 	)
 	(no_connect
-		(at 158.75 148.59)
-		(uuid "951dc6ec-1419-44c5-8c97-a88b17111b8b")
-	)
-	(no_connect
 		(at 158.75 120.65)
 		(uuid "954d3a2d-4155-4764-91a4-d58842367f85")
 	)
@@ -4040,10 +4036,6 @@
 	(no_connect
 		(at 158.75 100.33)
 		(uuid "b27a81bf-64ed-47cd-92d0-85f2a24432dd")
-	)
-	(no_connect
-		(at 224.79 147.32)
-		(uuid "b3b43abc-eccf-415e-bf4a-de37d6d95642")
 	)
 	(no_connect
 		(at 260.35 92.71)
@@ -4088,6 +4080,16 @@
 	(no_connect
 		(at 228.6 95.25)
 		(uuid "fbcdd98a-e49c-449c-a399-1dc7b7b10c8a")
+	)
+	(wire
+		(pts
+			(xy 199.39 148.59) (xy 158.75 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0002ce6e-f107-48a2-a6e2-e6cf5e28e768")
 	)
 	(wire
 		(pts
@@ -5091,6 +5093,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 147.32) (xy 199.39 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddcd171-960f-45a3-9204-4604483d8cc1")
+	)
+	(wire
+		(pts
 			(xy 215.9 118.11) (xy 201.93 118.11)
 		)
 		(stroke
@@ -5108,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "d5dbfe74-b764-4002-aa6b-7fffe5d989b0")
+	)
+	(wire
+		(pts
+			(xy 199.39 147.32) (xy 199.39 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86bfdd7-096c-4dd3-a5d5-dcb4a40db491")
 	)
 	(wire
 		(pts
@@ -8094,7 +8116,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180R"
 			(at 45.72 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9273,7 +9295,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180R"
 			(at 45.72 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9440,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 53.34 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9609,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 53.34 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10332,7 +10354,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180R"
 			(at 45.72 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10561,7 +10583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 259.08 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11630,7 +11652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 53.34 180.34 0)
 			(hide yes)
 			(show_name no)

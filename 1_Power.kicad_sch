@@ -3295,7 +3295,7 @@
 		)
 		(uuid "6132d7a5-b4a8-4c04-a126-e971090e9887")
 	)
-	(text "Output inductor calculations:\nLmin = (Vin_max - Vout) * Vout / Iout * K * Vin_max * f\nVin_max = 9V, Vout = 5V, Iout = 2A, K = 0.3, f = 500kHz\nLmin = ~7.4 uH = 7.5 uH standard value\n--------------------------------------------------------\nOutput capacitor calculations:\nΔVout_esr = K * Iout * ESR = 30 mV max\n⇒ ESR = 0.05 Ω max\n\nΔVout_c = K * Iout / 8 * f * Cout = 30 mV max\n⇒ Cout = 5 uF\n\nCout > 4 * (Ioh - Iol) / f * ΔVout_shoot\nUsing Ioh = 1.5A, Iol = 0.5A, ΔVout_shoot = 250 mV:\nCout > 32 uF\nUsing Cout > 32 uF at 50 mΩ ESR: \nChoose Cout = 3 x 10 uF at 25V (CL31B106KAHNNWE from Samsung)"
+	(text "Output inductor calculations:\nLmin = (Vin_max - Vout) * Vout / Iout * K * Vin_max * f\nVin_max = 9V, Vout = 5V, Iout = 2A, K = 0.3, f = 500kHz\nLmin = ~7.4 uH = 7.5 uH standard value\n--------------------------------------------\nOutput capacitor calculations:\nΔVout_esr = K * Iout * ESR = 30 mV max\n⇒ ESR = 0.05 Ω max\n\nΔVout_c = K * Iout / 8 * f * Cout = 30 mV max\n⇒ Cout = 5 uF\n\nCout > 4 * (Ioh - Iol) / f * ΔVout_shoot\nUsing Ioh = 1.5A, Iol = 0.5A, ΔVout_shoot = 250 mV:\nCout > 32 uF\nUsing Cout > 32 uF at 50 mΩ ESR: \nChoose Cout = 3 x 10 uF at 25V (CL31B106KAHNNWE from Samsung)"
 		(exclude_from_sim no)
 		(at 193.04 39.37 0)
 		(effects
@@ -6616,7 +6616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "180R"
 			(at 96.52 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8100,7 +8100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "180R"
 			(at 81.28 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,7 +8935,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "ORANGE"
 			(at 96.52 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
