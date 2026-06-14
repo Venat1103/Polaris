@@ -3742,10 +3742,6 @@
 		(uuid "fdbd1a3d-affd-4eca-8e8f-967a48741ca9")
 	)
 	(no_connect
-		(at 158.75 113.03)
-		(uuid "1a3f1f0a-7fba-45a4-a33c-2f2c3b0d24c4")
-	)
-	(no_connect
 		(at 158.75 151.13)
 		(uuid "1c37f9ee-4a20-45cf-a053-5327b8b57e57")
 	)
@@ -3756,10 +3752,6 @@
 	(no_connect
 		(at 158.75 130.81)
 		(uuid "26f1f785-2e86-410b-b4a5-d5211b466f4d")
-	)
-	(no_connect
-		(at 158.75 115.57)
-		(uuid "30f85035-598f-4d5a-a4f9-5979c541b6db")
 	)
 	(no_connect
 		(at 260.35 87.63)
@@ -3806,6 +3798,10 @@
 		(uuid "951dc6ec-1419-44c5-8c97-a88b17111b8b")
 	)
 	(no_connect
+		(at 158.75 120.65)
+		(uuid "954d3a2d-4155-4764-91a4-d58842367f85")
+	)
+	(no_connect
 		(at 158.75 97.79)
 		(uuid "95940def-70c0-49eb-854e-221f6e8e176f")
 	)
@@ -3818,10 +3814,6 @@
 		(uuid "a7307b52-f5f3-458b-bbb5-0b1dca40208b")
 	)
 	(no_connect
-		(at 158.75 118.11)
-		(uuid "a98c0d5d-270f-46b8-8fe0-a998ea0736d6")
-	)
-	(no_connect
 		(at 158.75 100.33)
 		(uuid "b27a81bf-64ed-47cd-92d0-85f2a24432dd")
 	)
@@ -3832,10 +3824,6 @@
 	(no_connect
 		(at 260.35 92.71)
 		(uuid "c14d8dbb-28c8-4e9a-a5cd-5bfbe18653b4")
-	)
-	(no_connect
-		(at 158.75 120.65)
-		(uuid "c8d1bbfe-2790-4391-958b-ee2b4f8c046c")
 	)
 	(no_connect
 		(at 107.95 151.13)
@@ -4119,6 +4107,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 115.57) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c79717-4cf6-4ada-97b3-31bba4d625b7")
+	)
+	(wire
+		(pts
 			(xy 205.74 127) (xy 224.79 127)
 		)
 		(stroke
@@ -4266,6 +4264,16 @@
 			(type default)
 		)
 		(uuid "5f66027d-26ee-4a26-b329-709e1593188b")
+	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 172.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f925005-1637-467d-9845-defda54a7846")
 	)
 	(wire
 		(pts
@@ -4959,6 +4967,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 118.11) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9abaac-bf2b-4dec-beb6-06b75330920a")
+	)
+	(wire
+		(pts
 			(xy 146.05 69.85) (xy 146.05 60.96)
 		)
 		(stroke
@@ -5017,6 +5035,16 @@
 		)
 		(uuid "406ee0ae-1ef5-4a36-8e5b-d35e6dfb7231")
 	)
+	(label "TLM_STAT2"
+		(at 172.72 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e40ad75-8660-4716-afd9-7249fa132655")
+	)
 	(label "SD_DAT1"
 		(at 160.02 135.89 0)
 		(effects
@@ -5046,6 +5074,16 @@
 			(justify left bottom)
 		)
 		(uuid "744d8aae-6e9f-4ab8-bada-ab853a52aec3")
+	)
+	(label "TLM_STAT3"
+		(at 172.72 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74e64c76-eb98-4fc1-84a2-d60a3aca97ff")
 	)
 	(label "RADIO_TX"
 		(at 167.64 110.49 180)
@@ -5116,6 +5154,16 @@
 			(justify left bottom)
 		)
 		(uuid "df70f331-52dd-40e9-a96f-f57e3e30b50c")
+	)
+	(label "TLM_STAT1"
+		(at 172.72 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec3000af-c5f0-4251-89b6-52643aeadfc9")
 	)
 	(hierarchical_label "TLM_SS"
 		(shape input)
