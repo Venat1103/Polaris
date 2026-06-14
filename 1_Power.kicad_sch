@@ -3316,6 +3316,16 @@
 		)
 		(uuid "8049c641-7706-4d9f-9627-da5460bafd3a")
 	)
+	(text "Comparator voltage at FB = 0.6V typ.\nChoose R1 = 162k, R2 = 22.1k so that\nVfb = 0.6V when Vout = 5V"
+		(exclude_from_sim no)
+		(at 236.22 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a481504-42f8-4c38-b8de-c702cc92949a")
+	)
 	(text "[1] Power"
 		(exclude_from_sim no)
 		(at 71.12 39.37 0)
