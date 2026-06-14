@@ -9176,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9726,7 +9726,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4d674a8d-641c-408f-921f-a73b8e601663")
 		(property "Reference" "R402"
 			(at 113.03 135.89 90)
@@ -9738,7 +9738,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0R"
 			(at 113.03 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13655,7 +13655,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ccda092c-ce09-4901-825f-d60334ef3231")
 		(property "Reference" "R401"
 			(at 113.03 87.63 90)
@@ -13667,7 +13667,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0R"
 			(at 113.03 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14911,7 +14911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 90.17 175.26 0)
 			(hide yes)
 			(show_name no)
