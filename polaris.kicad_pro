@@ -595,6 +595,9 @@
       "/3_NavigationProcessor/STM32_D-": [
         "USB"
       ],
+      "/4_TelemetryProcessor/ANTENNA": [
+        "RF_Antenna"
+      ],
       "/4_TelemetryProcessor/RP2040_D+": [
         "USB"
       ],
@@ -920,7 +923,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "#PWR303,#PWR309,#PWR430-436,#PWR519-521,D302-303,D401-404,D502-504,BZ401,R409-414,R509-511,U406,Y402,Q401",
+    "used_designators": "#PWR303,#PWR309,#PWR430-436,#PWR519-522,D302-303,D401-404,D502-504,BZ401,R409-414,R509-513,U406,Y402,Q401",
     "variants": []
   },
   "sheets": [
