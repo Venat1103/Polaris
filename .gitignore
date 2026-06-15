@@ -1,0 +1,6 @@
+*.ini
+*.kicad_prl
+*.lck
+.history/
+EasyEDA_Lib/
+EASYEDA_MODELS/
