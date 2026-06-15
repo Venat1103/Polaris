@@ -5838,6 +5838,18 @@
 		)
 		(uuid "d2548014-a953-48a0-b227-0f4fb11fd06a")
 	)
+	(text "To program the STM32, hold down SW401 \nand reset the MCU with SW402.\nThen, connect it to a computer via a \nregular USB-C cable."
+		(exclude_from_sim no)
+		(at 95.25 60.96 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 0.75 0.75)
+			)
+			(justify left)
+		)
+		(uuid "d4ce2214-2723-417d-871e-b131995a5728")
+	)
 	(text "SPI1: RP2040\nSPI2: LSM6DSO32\nSPI3: ICM-42688-P\nI2C1: MS5607\nI2C3: LPS22HH\nUSART2: GPS NEO-M8N"
 		(exclude_from_sim no)
 		(at 152.4 189.23 0)

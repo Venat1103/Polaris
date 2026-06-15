@@ -923,7 +923,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "U504,#PWR513",
+    "used_designators": "U504,#PWR513,C101-104,SW601",
     "variants": []
   },
   "sheets": [

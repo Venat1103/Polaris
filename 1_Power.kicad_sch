@@ -3318,10 +3318,11 @@
 	)
 	(text "Comparator voltage at FB = 0.6V typ.\nChoose R1 = 162k, R2 = 22.1k so that\nVfb = 0.6V when Vout = 5V"
 		(exclude_from_sim no)
-		(at 245.11 88.9 0)
+		(at 248.92 83.82 0)
 		(effects
 			(font
-				(size 1.016 1.016)
+				(face "Arial")
+				(size 1 1)
 			)
 			(justify right)
 		)
@@ -3338,7 +3339,7 @@
 		)
 		(uuid "8c41a6e4-104e-4e9d-9181-d941b5929b48")
 	)
-	(text "This is 50 mΩ, not MΩ\nSets charge current to ~2A"
+	(text "Sets charge current to ~1A"
 		(exclude_from_sim no)
 		(at 52.07 92.71 0)
 		(effects
@@ -4920,7 +4921,7 @@
 				)
 			)
 		)
-		(property "Value" "50m"
+		(property "Value" "0R1"
 			(at 48.26 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
