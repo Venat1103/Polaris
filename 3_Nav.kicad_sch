@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "6141032b-5862-4eba-983d-a20322a698e6")
 	(paper "A4")
+	(title_block
+		(title "Polaris/NAV")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
@@ -5667,17 +5670,6 @@
 			(justify left)
 		)
 		(uuid "0e4a219b-5f75-43bc-8274-75c92259aa50")
-	)
-	(text "Active\nbuzzer"
-		(exclude_from_sim no)
-		(at 265.43 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1219fb7d-6000-4152-b45b-6544d33ec5ef")
 	)
 	(text "GNSS Module"
 		(exclude_from_sim no)
