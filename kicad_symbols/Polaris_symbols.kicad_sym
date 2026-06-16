@@ -6210,7 +6210,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 38.1 -29.21 180)
 				(length 2.54)
 				(name "SHELL"
@@ -6228,7 +6228,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 38.1 -29.21 180)
 				(length 2.54)
 				(hide yes)
@@ -6247,7 +6247,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 38.1 -29.21 180)
 				(length 2.54)
 				(hide yes)
@@ -6266,7 +6266,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 38.1 -29.21 180)
 				(length 2.54)
 				(hide yes)
