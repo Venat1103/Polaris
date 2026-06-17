@@ -2156,6 +2156,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 57.15) (xy 175.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270b7b76-eea5-4c4e-a397-50ec8adf3027")
+	)
+	(wire
+		(pts
 			(xy 92.71 68.58) (xy 92.71 93.98)
 		)
 		(stroke
@@ -2396,6 +2406,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 58.42) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6717d779-bce3-4157-b9a7-e8d0ccc295de")
+	)
+	(wire
+		(pts
 			(xy 78.74 38.1) (xy 80.01 38.1)
 		)
 		(stroke
@@ -2506,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 59.69) (xy 180.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a103ee-ce86-4e68-90a6-fd858690e6ea")
+	)
+	(wire
+		(pts
 			(xy 204.47 59.69) (xy 257.81 59.69)
 		)
 		(stroke
@@ -2563,6 +2593,16 @@
 			(type default)
 		)
 		(uuid "93dd4143-b925-4dd7-a866-9f9bcecfe205")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95598412-fbe1-497c-b781-058e2a978e67")
 	)
 	(wire
 		(pts
@@ -2646,6 +2686,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 46.99) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21ac323-dc1b-4faa-9a25-f33dbb401f2e")
+	)
+	(wire
+		(pts
 			(xy 88.9 101.6) (xy 101.6 101.6)
 		)
 		(stroke
@@ -2723,6 +2773,16 @@
 			(type default)
 		)
 		(uuid "c6ad2eb2-4cbb-4794-a3fb-d65f83cc3ef2")
+	)
+	(wire
+		(pts
+			(xy 163.83 63.5) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7df0046-b20b-4d36-822f-b9472e827366")
 	)
 	(wire
 		(pts
@@ -2826,6 +2886,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 59.69) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb342829-d2b2-40ca-82cf-d0fd5203d9a3")
+	)
+	(wire
+		(pts
 			(xy 254 19.05) (xy 257.81 19.05)
 		)
 		(stroke
@@ -2836,6 +2906,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 63.5) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84fd3a1-28d4-4daf-98a1-534244a5d72a")
+	)
+	(wire
+		(pts
 			(xy 184.15 77.47) (xy 194.31 77.47)
 		)
 		(stroke
@@ -2843,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "ff010c93-f2f6-49ed-815a-86b391ab3b9a")
+	)
+	(wire
+		(pts
+			(xy 175.26 46.99) (xy 175.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3c106a-e32f-4c02-b4c2-e26b66817e51")
 	)
 	(wire
 		(pts
@@ -5588,6 +5678,90 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 177.8 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91e2799d-a51b-4d00-a040-a1c298bb127b")
+		(property "Reference" "J114"
+			(at 175.26 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 167.64 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+			(at 177.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 177.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "578ba23a-5439-4931-8e5a-2fa23a9e1901")
+		)
+		(pin "1"
+			(uuid "76bdd2a7-02bb-4fdb-a5a0-63bc7370e134")
+		)
+		(pin "3"
+			(uuid "f093575b-7040-4f1d-925e-072d6d1d2168")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "J114")
 					(unit 1)
 				)
 			)
