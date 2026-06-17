@@ -5373,6 +5373,16 @@
 		)
 		(uuid "27281e73-512f-4a80-a6ce-67d4e4d07b80")
 	)
+	(label "SD_CD"
+		(at 160.02 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a09f34b-570b-48f0-ab39-0953d080144e")
+	)
 	(label "ANTENNA"
 		(at 215.9 110.49 90)
 		(effects
@@ -5402,6 +5412,26 @@
 			(justify left bottom)
 		)
 		(uuid "406ee0ae-1ef5-4a36-8e5b-d35e6dfb7231")
+	)
+	(label "RF_RESET"
+		(at 191.77 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41d0c47e-3daf-4358-8c9f-ffc13fd1f38b")
+	)
+	(label "RF_BOOT"
+		(at 191.77 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bb793ef-f28c-4153-ad86-2dc663740600")
 	)
 	(label "TLM_STAT2"
 		(at 172.72 115.57 180)

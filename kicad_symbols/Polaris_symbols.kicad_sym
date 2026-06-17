@@ -12709,24 +12709,8 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "NEG"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
+		)
+		(symbol "XT60-M_1_0"
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 5.08)
@@ -12737,7 +12721,25 @@
 						)
 					)
 				)
-				(number "P"
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 5.08)
+				(name "NEG"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)

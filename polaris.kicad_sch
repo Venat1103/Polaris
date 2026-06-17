@@ -1307,24 +1307,8 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "NEG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
+			)
+			(symbol "XT60-M_1_0"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 5.08)
@@ -1335,7 +1319,25 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1989,7 +1991,7 @@
 		(uuid "cd240214-36c9-4fe5-b64c-e628847d9a14")
 	)
 	(junction
-		(at 78.74 38.1)
+		(at 78.74 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff7d483e-7159-4c3e-920e-52d1ba8c4ed3")
@@ -2416,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 38.1) (xy 80.01 38.1)
+			(xy 78.74 39.37) (xy 80.01 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 38.1) (xy 78.74 38.1)
+			(xy 77.47 39.37) (xy 78.74 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3156,7 +3158,7 @@
 	)
 	(global_label "VBAT_VIN"
 		(shape output)
-		(at 80.01 38.1 0)
+		(at 80.01 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3166,7 +3168,7 @@
 		)
 		(uuid "c40d565b-5155-4b2c-8308-e28203072b3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.4015 38.1 0)
+			(at 91.4015 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 40.64 0)
+		(at 77.47 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5540,7 +5542,7 @@
 		(fields_autoplaced yes)
 		(uuid "880abc3a-4308-4283-9767-e711e77ce7a0")
 		(property "Reference" "#PWR0101"
-			(at 77.47 46.99 0)
+			(at 77.47 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5551,7 +5553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 45.72 0)
+			(at 77.47 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5561,7 +5563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 40.64 0)
+			(at 77.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5572,7 +5574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 40.64 0)
+			(at 77.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,7 +5585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 40.64 0)
+			(at 77.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6311,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 78.74 38.1 0)
+		(at 78.74 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6320,7 +6322,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc902f68-4508-4fed-b1df-774efae8b926")
 		(property "Reference" "#FLG0101"
-			(at 78.74 36.195 0)
+			(at 78.74 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6331,7 +6333,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 78.74 33.02 0)
+			(at 78.74 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6341,7 +6343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 38.1 0)
+			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6352,7 +6354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 38.1 0)
+			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6363,7 +6365,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 78.74 38.1 0)
+			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,6 +7522,232 @@
 		)
 	)
 	(symbol
+		(lib_id "Polaris_symbols:XT60-M")
+		(at 72.39 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1ae58d0-c07d-4345-a147-5f49ecdac585")
+		(property "Reference" "J101"
+			(at 68.58 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60-M"
+			(at 68.58 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "V1.2"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60-M"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "40644015-9e74-4496-acbb-8077deec3d3f")
+		)
+		(pin "1"
+			(uuid "91ad8b43-887d-4735-a5c1-540459a669a0")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 254 135.89 0)
 		(unit 1)
@@ -7694,275 +7922,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "J103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Polaris_symbols:XT60-M")
-		(at 72.39 40.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6535f6a-61a0-41e4-bd1a-48f6eeba5ea2")
-		(property "Reference" "J101"
-			(at 68.58 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60-M"
-			(at 68.58 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "V1.2"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT60-M"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "AMASS"
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 72.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "N"
-			(uuid "21f79de2-371e-439e-b24a-127b88c1d6f1")
-		)
-		(pin "P"
-			(uuid "bcc83fb7-7499-465b-89ee-0e0986988c55")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J101")
 					(unit 1)
 				)
 			)

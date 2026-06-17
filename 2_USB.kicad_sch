@@ -721,7 +721,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Row_Letter_First"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -732,7 +732,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 1.27 5.08 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -741,8 +741,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x03_Row_Letter_First"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -773,7 +773,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -795,7 +795,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -806,10 +806,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x03_Row_Letter_First_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -851,50 +851,17 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_a1"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -905,14 +872,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_a2"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a2"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -923,68 +890,14 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_a3"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "a3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_b1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_b2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_b3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b3"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3069,9 +2982,9 @@
 		)
 		(uuid "15be2bf0-cec1-4cdd-b0e9-fe32fc4ff3ad")
 	)
-	(text "Use short circuit caps to select the MCUs:\nShort pins 1 to disable the MUX\nShort pins 2 to select the STM32\nShort pins 3 to select the RP2040\n"
+	(text "Use short circuit caps to select the MCUs:\nShort pins 1 and 6 to disable the MUX\nShort pins 2 and 5 to select the STM32\nShort pins 3 and 4 to select the RP2040\n"
 		(exclude_from_sim no)
-		(at 166.37 132.08 0)
+		(at 165.1 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4605,6 +4518,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 217.17 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4560eb87-165c-4f71-afe0-5fc7887d7f14")
+		(property "Reference" "J303"
+			(at 222.25 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 222.25 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 217.17 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34b85007-80c5-4cfb-a33e-acdf86941bc1")
+		)
+		(pin "3"
+			(uuid "10515459-47a7-43cf-bb8f-8e26ad205676")
+		)
+		(pin "1"
+			(uuid "2fe4ef56-cebf-4993-b0d0-7e38bf8e3bf3")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/f51c22fe-6c27-4a6e-b54b-9941150cfe5c"
+					(reference "J303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 182.88 97.79 0)
 		(unit 1)
@@ -5336,7 +5333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Row_Letter_First")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 217.17 130.81 90)
 		(unit 1)
 		(body_style 1)
@@ -5345,10 +5342,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96ba7e6b-8ecc-4a54-bebf-cf0cfa7a9b2c")
+		(uuid "9415db3f-cf7b-4dc9-a181-1c934e8888fb")
 		(property "Reference" "J302"
-			(at 221.742 128.2699 90)
+			(at 222.25 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5358,8 +5354,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_02x03_Row_Letter_First"
-			(at 221.742 130.8099 90)
+		(property "Value" "Conn_01x03"
+			(at 222.25 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5369,7 +5365,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 217.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5391,7 +5387,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 217.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5402,122 +5398,14 @@
 				)
 			)
 		)
-		(property "Description_1" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "1"
+			(uuid "70d0e9bf-fd9d-4915-b323-a52e8dfc017b")
 		)
-		(property "KLC_S3.3" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "e973af2a-613a-4540-9e37-8c273465a44a")
 		)
-		(property "KLC_S4.1" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 217.17 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "b1"
-			(uuid "9996406d-40a5-40cb-bc38-04c3708cda12")
-		)
-		(pin "a3"
-			(uuid "effeb499-30d4-42d8-9179-4a16b0e70e3b")
-		)
-		(pin "a2"
-			(uuid "33fec016-51d7-494b-99f1-72655e549bd1")
-		)
-		(pin "b2"
-			(uuid "e07f5b0d-4e87-4e97-97e0-d50b0c182d5c")
-		)
-		(pin "b3"
-			(uuid "a969d0a1-b028-4042-82e8-ea402e8f0f64")
-		)
-		(pin "a1"
-			(uuid "973c8556-e509-48b6-81a1-934f411208e1")
+		(pin "3"
+			(uuid "449e1cd9-74a3-428c-a377-da7599cae3f7")
 		)
 		(instances
 			(project "polaris"

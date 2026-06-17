@@ -4584,7 +4584,7 @@
 		(at 232.41 63.5 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.65 0.65)
 			)
 			(justify left bottom)
 		)
@@ -4649,6 +4649,36 @@
 			(justify left bottom)
 		)
 		(uuid "e3261844-7f16-47b8-bc51-57d804926c2a")
+	)
+	(label "BATT_APG"
+		(at 38.1 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f53c9bd7-d9f1-45c7-95d4-d073d5561b2c")
+	)
+	(label "BATT_CR"
+		(at 48.26 123.19 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "f60d4035-5b06-4001-a48d-f61cfbb167bd")
+	)
+	(label "REG_SW"
+		(at 231.14 71.12 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "f830f9c0-b7a0-4b29-8055-959521b6725c")
 	)
 	(global_label "POWER"
 		(shape output)

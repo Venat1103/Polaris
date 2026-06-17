@@ -1338,8 +1338,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q401"
+				(at 6.35 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1350,7 +1350,7 @@
 				)
 			)
 			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1360,8 +1360,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 6.35 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1383,6 +1383,50 @@
 				)
 			)
 			(property "Description" "N-MOSFET transistor"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1572,24 +1616,6 @@
 				)
 			)
 			(symbol "Q_NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1600,7 +1626,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1618,7 +1644,25 @@
 							)
 						)
 					)
-					(number "S"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12180,7 +12224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Si2302_NMOS"
+		(property "Value" "Q_NMOS"
 			(at 267.97 27.9401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12192,7 +12236,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 266.7 31.75 0)
+			(at 267.97 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12214,7 +12258,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 261.62 29.21 0)
+			(at 261.62 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12268,13 +12312,13 @@
 				)
 			)
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "d9322606-d286-4290-ae9d-440046713388")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "3a40afb0-e837-4461-8903-1e6aa0fcae77")
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "7dcfc77b-4f7e-43c4-931e-ca96bdc65792")
 		)
 		(instances

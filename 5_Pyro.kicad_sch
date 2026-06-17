@@ -1165,24 +1165,8 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "NEG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
+			)
+			(symbol "XT60-M_1_0"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 5.08)
@@ -1193,7 +1177,25 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5182,7 +5184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 58.42 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5404,10 +5406,10 @@
 				)
 			)
 		)
-		(pin "N"
+		(pin "2"
 			(uuid "fcf0083a-9933-4003-8d77-556b92ea3d4a")
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "c333758d-b8ea-4d11-8a5b-cbacaccebdd4")
 		)
 		(instances
