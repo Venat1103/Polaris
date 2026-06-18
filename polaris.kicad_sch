@@ -3638,7 +3638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "FIN2"
 			(at 259.08 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "DROGUE2"
 			(at 256.54 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "FIN3"
 			(at 259.08 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4488,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "NAV_SWD"
 			(at 156.21 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "FIN1"
 			(at 259.08 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5368,7 +5368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "FIN4"
 			(at 259.08 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5697,25 +5697,23 @@
 		(dnp no)
 		(uuid "91e2799d-a51b-4d00-a040-a1c298bb127b")
 		(property "Reference" "J114"
-			(at 175.26 35.56 90)
+			(at 177.8 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 167.64 38.1 90)
+		(property "Value" "NAV_GPIO"
+			(at 177.8 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
@@ -5870,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "MOTOR2"
 			(at 256.54 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +6533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "MOTOR1"
 			(at 256.54 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6716,7 +6714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "DROGUE1"
 			(at 256.54 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,7 +7019,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "TLM_SWD"
 			(at 156.21 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7285,7 +7283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "MAIN1"
 			(at 256.54 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7769,7 +7767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "MAIN2"
 			(at 256.54 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)

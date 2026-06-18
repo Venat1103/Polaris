@@ -4660,16 +4660,6 @@
 		)
 		(uuid "f53c9bd7-d9f1-45c7-95d4-d073d5561b2c")
 	)
-	(label "BATT_CR"
-		(at 48.26 123.19 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "f60d4035-5b06-4001-a48d-f61cfbb167bd")
-	)
 	(label "REG_SW"
 		(at 231.14 71.12 0)
 		(effects

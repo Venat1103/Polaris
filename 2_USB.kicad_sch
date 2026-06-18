@@ -908,161 +908,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3086,18 +2931,6 @@
 		(uuid "381c4d22-6317-48c6-b15c-be7223731dfd")
 	)
 	(junction
-		(at 49.53 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63a17b26-9285-4c91-abc5-1b3da38a74a0")
-	)
-	(junction
-		(at 57.15 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e34a5eb-fc32-4b89-9c09-13d317802403")
-	)
-	(junction
 		(at 87.63 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3108,6 +2941,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0108104-5e51-4094-895a-facf7dc7911d")
+	)
+	(junction
+		(at 57.15 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3bc852b-dde3-4d13-bcbf-5bb6b6a2ed44")
 	)
 	(junction
 		(at 85.09 85.09)
@@ -3214,16 +3053,6 @@
 			(type default)
 		)
 		(uuid "23591d0f-32b9-4cc1-9740-243aad4dc8b6")
-	)
-	(wire
-		(pts
-			(xy 46.99 129.54) (xy 46.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d321cbb-2aaa-4e8f-9ec6-cf816ad7c985")
 	)
 	(wire
 		(pts
@@ -3477,6 +3306,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 125.73) (xy 57.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a524e2fb-b6b0-4566-b3e6-5c8a94093f68")
+	)
+	(wire
+		(pts
 			(xy 132.08 114.3) (xy 132.08 115.57)
 		)
 		(stroke
@@ -3574,16 +3413,6 @@
 			(type default)
 		)
 		(uuid "cfb14853-39fe-4693-a655-43851c4b4a1c")
-	)
-	(wire
-		(pts
-			(xy 46.99 125.73) (xy 49.53 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e605e6b4-99a1-4fc9-b2ee-b4359e42cb35")
 	)
 	(wire
 		(pts
@@ -3880,30 +3709,6 @@
 			(justify right bottom)
 		)
 		(uuid "fec7d84c-e82f-43a9-9b49-6c39d5914e0e")
-	)
-	(global_label "SHIELD"
-		(shape passive)
-		(at 46.99 129.54 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2da30df3-a941-4833-8459-53c4bf7b519a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 138.0058 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(hierarchical_label "USB_VCC"
 		(shape output)
@@ -4539,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "MUX1"
 			(at 222.25 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5354,7 +5159,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "MUX2"
 			(at 222.25 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,129 +5294,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/f51c22fe-6c27-4a6e-b54b-9941150cfe5c"
 					(reference "#PWR0305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "b03b8281-10c1-4a90-90a8-6e88bcd8a9f7")
-		(property "Reference" "C301"
-			(at 53.34 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 53.34 132.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 57.15 124.7648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 53.34 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 53.34 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 53.34 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 53.34 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e493785d-9c38-46d0-9bd5-a8796cd210ae")
-		)
-		(pin "1"
-			(uuid "ec681eb5-cf21-4257-9177-9aa3dfd9d417")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/f51c22fe-6c27-4a6e-b54b-9941150cfe5c"
-					(reference "C301")
 					(unit 1)
 				)
 			)

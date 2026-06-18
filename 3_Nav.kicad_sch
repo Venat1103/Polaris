@@ -15105,8 +15105,8 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
-			(at 32.512 57.15 0)
+		(property "Value" "GNSS"
+			(at 24.13 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
