@@ -14,6 +14,7 @@
 
 #include "machine/fsm.h"
 
+#define MEASURE_CHAMBER_PRESSURE
 #define CONTROL_TVC
 // #define CONTROL_SURFACE
 
@@ -40,9 +41,9 @@ typedef enum {
 } Flight_State;
 
 typedef struct {
-    float chamber_pressure;
-    float current;
-    float voltage;
+    #if defined(MEASURE_CHAMBER_PRESSURE)
+        float chamber_pressure;
+    #endif
 
     float acceleration[3];
     float velocity[3];

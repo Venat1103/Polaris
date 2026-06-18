@@ -34,9 +34,9 @@ Transition transitions[] = {
 };
 
 Flight_Data data = {
-    0.0,
-    0.0,
-    0.0,
+    #if defined(MEASURE_CHAMBER_PRESSURE)
+        0.0,
+    #endif
 
     {0.0,0.0,0.0},
     {0.0,0.0,0.0},
