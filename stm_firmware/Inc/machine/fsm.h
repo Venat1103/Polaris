@@ -11,10 +11,10 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-typedef struct FSM FSM; // forward declaration of FSM struct
+typedef struct FSM FSM;
 
 typedef struct {
-    uint32_t id;
+    uint32_t id; // can be used to store enum value
     void (*update)(void* context); // function to execute periodically when in this state
     void (*enter)(void* context);  // function to execute when entering this state
     void (*exit)(void* context);   // function to execute when exiting this state
