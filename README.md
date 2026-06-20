@@ -36,7 +36,8 @@ The Ra-08H is a fairly cheap LoRa module based on the ASR6601 SoC
 ## 5. Active Control:
 Active control is achieved through 4 servo lines controlled via PWM signals from NAV. \
 The board supports both thrust vector control (through the first two servo lines) and fin control (through all four servo lines) \
-The servos must be high-power and operate at up to 9V.
+The servos must be high-power and operate at up to 9V. \
+Power supplied to the active control servos is controlled through an XT-60 terminal. When active control is needed, plug this terminal with a short-circuit cap, making sure that the cap ca withstand the current drawn by the servos. In case the active control system is not in the best condition to operate at launch, this provides an easy way to cut off the system so that the rocket can still launch
 ## 6. Others:
 The board supports firing the motor and all parachutes using firing leads or e-matches with the main power rail.\
 The board and all microcontrollers can be charged and programmed via a single USB-C receptacle. For programming, select a microcontroller using the short circuit headers which control the USB mux.\
