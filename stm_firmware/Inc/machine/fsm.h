@@ -15,7 +15,7 @@ typedef struct FSM FSM;
 
 typedef struct {
     uint32_t id; // can be used to store enum value
-    void (*update)(void* context); // function to execute periodically when in this state
+    void (*heartbeat)(void* context); // function to execute periodically when in this state
     void (*enter)(void* context);  // function to execute when entering this state
     void (*exit)(void* context);   // function to execute when exiting this state
 } State;
@@ -23,7 +23,7 @@ typedef struct {
 typedef struct {
     State* current;
     State* next;
-    bool (*condition)(void* context); // check for valid transitions per fsm update
+    bool (*condition)(void* context); // check for valid transitions per fsm heartbeat
 } Transition;
 
 struct FSM {
@@ -33,10 +33,10 @@ struct FSM {
     int num_transitions;
     State* current_state;
     int check_transitions; // flag to check for valid transitions, save compute power when required
-    void (*update)(FSM* fsm); // function to update the FSM periodically
+    void (*heartbeat)(FSM* fsm); // function to update the FSM periodically
     void* context; // user-defined context for the FSM, should contain any necessary data for the states and transitions
 };
 
-void fsm_update_core(FSM* fsm);
+void fsm_heartbeat_core(FSM* fsm);
 
 #endif

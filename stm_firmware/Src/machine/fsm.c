@@ -7,10 +7,10 @@
 
 #include "machine/fsm.h"
 
-void fsm_update_core(FSM* fsm) {
+void fsm_heartbeat_core(FSM* fsm) {
     // run function to update current state
-    if (fsm->current_state->update) {
-        fsm->current_state->update(fsm->context);
+    if (fsm->current_state->heartbeat) {
+        fsm->current_state->heartbeat(fsm->context);
     }
     if (!fsm->check_transitions) {return;}
     // check for valid transitions

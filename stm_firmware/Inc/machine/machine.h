@@ -58,8 +58,8 @@ Flight_Data data = {
     0
 };
 
-void fsm_update(FSM* fsm) {
-    fsm_update_core(fsm);
+void fsm_heartbeat(FSM* fsm) {
+    fsm_heartbeat_core(fsm);
     // run extra code
     // printf("Current State: %i\nCurrent: %.2f, Voltage: %.2f\n", fsm->current_state->id, data.current, data.voltage);
 }
@@ -71,7 +71,7 @@ FSM machine = {
     6,
     &states[0],
     1,
-    fsm_update,
+    fsm_heartbeat,
     &data
 };
 
