@@ -65,4 +65,10 @@ typedef struct {
     int gps_lock;
 } Flight_Data;
 
+/////////////////
+// PERIPHERALS //
+/////////////////
+
+void tim2_1mhz_init(void);
+
 #endif

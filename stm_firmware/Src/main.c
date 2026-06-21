@@ -8,7 +8,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "stm32f412rx.h"
+#include "stm32f446xx.h"
 
 #include "machine/fsm.h"
 #include "main.h"
@@ -16,5 +16,7 @@
 
 int main(void)
 {
+	// Start TIM2 as master clock, correct by RTC for drift
+	tim2_1mhz_init();
 	return 0;
 }
