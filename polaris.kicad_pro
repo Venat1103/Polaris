@@ -242,7 +242,13 @@
       "mpn": "",
       "sch_revision": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 0
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -601,6 +607,12 @@
       "/3_NavigationProcessor/STM32_D-": [
         "USB"
       ],
+      "/3_NavigationProcessor/USB_D+": [
+        "USB"
+      ],
+      "/3_NavigationProcessor/USB_D-": [
+        "USB"
+      ],
       "/4_TelemetryProcessor/ANTENNA": [
         "RF_Antenna"
       ],
@@ -627,6 +639,9 @@
       ],
       "/TLM_USB_D-": [
         "USB"
+      ],
+      "Net-(J402-In)": [
+        "RF_Antenna"
       ],
       "Net-(J502-In)": [
         "RF_Antenna"
@@ -929,7 +944,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U403,U406-408,C417-418,C420-424,D405,#PWR423,#PWR437-446,R415-416,J402",
     "variants": []
   },
   "sheets": [
@@ -950,12 +965,8 @@
       "3_NavigationProcessor"
     ],
     [
-      "fe5e17e9-7440-4fbd-b2a1-319d9cc92848",
-      "4_TelemetryProcessor"
-    ],
-    [
       "265a53e7-5f21-42fa-aa60-ebd8b846a247",
-      "5_Pyrochannels"
+      "4_Pyrochannels"
     ]
   ],
   "text_variables": {},
