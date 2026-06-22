@@ -2,5 +2,6 @@
 /.metadata
 /stm_firmware/.settings
 /stm_firmware/Debug
+/stm_firmware/stm_firmware.launch
 /.history
 /*.kicad*

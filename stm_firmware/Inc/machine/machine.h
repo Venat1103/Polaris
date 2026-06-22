@@ -47,9 +47,9 @@ Flight_Data data = {
     0.0,
     0.0,
 
-    #if defined(CONTROL_TVC)
+    #if defined(ACTUATION_THRUST_VECTOR)
         {0.0, 0.0},
-    #elif defined(CONTROL_SURFACE)
+    #elif defined(ACTUATION_CONTROL_SURFACE)
         {0.0, 0.0, 0.0, 0.0},
     #endif
 
