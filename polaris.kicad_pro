@@ -266,20 +266,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|1435100|698500|60bb7c63-e1c5-46d6-bf81-a255dbf39142|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|2336800|1384300|5d382cc3-ae7a-4237-bf4f-9d6975ad48f2|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "pin_to_pin|787400|1028700|aefe0867-3f33-46e5-8ba2-73095a786d09|dacd9b0a-a7be-4ce5-8272-f8fc9e6f1650|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0",
-        "BQ24005 charges the battery by driving a higher voltage into it. So it is sending power into a power output pin. This is okay, not an ERC violation"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -944,7 +931,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "U403,U406-408,C417-418,C420-424,D405,#PWR423,#PWR437-446,R415-416,J402",
+    "used_designators": "U207,C218-219,#PWR221-223",
     "variants": []
   },
   "sheets": [
