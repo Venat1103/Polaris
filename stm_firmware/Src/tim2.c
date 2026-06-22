@@ -1,3 +1,10 @@
+/*
+ * tim2.c
+ *
+ *  Created on: 21-Jun-2026
+ *      Author: soham
+ */
+
 #include "stm32f446xx.h"
 #include "main.h"
 
