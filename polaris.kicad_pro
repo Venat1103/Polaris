@@ -627,6 +627,9 @@
       "/TLM_USB_D-": [
         "USB"
       ],
+      "Net-(J1001-In)": [
+        "RF_Antenna"
+      ],
       "Net-(J402-In)": [
         "RF_Antenna"
       ],
@@ -875,7 +878,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -931,7 +934,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "U207,C218-219,#PWR221-223",
+    "used_designators": "C101-104,C201-217,C401-428,C501,C601-603,C701-702,C801,C901,C1001-1002,C1101-1102,D201-202,D301-302,D401-405,D501,D1001,#PWR101-110,#PWR201-221,#PWR301-307,#PWR401-445,#PWR501-527,#PWR601-603,#PWR701-703,#PWR801-803,#PWR901-905,#PWR1001-1005,#PWR1101-1103,BZ401,R201-207,R301,R401-415,R501-519,R801-802,R901-902,R1001-1002,#FLG101,#FLG201,#FLG301-302,U201-206,U301-303,U401-408,U501-507,U601,U701,U801,U901,U1001,U1101,H101-104,J101-111,J301,J401-402,J501,J1001,L201,Q201-202,Q401,Q501-506,SW401-402,Y401",
     "variants": []
   },
   "sheets": [
@@ -954,6 +957,30 @@
     [
       "265a53e7-5f21-42fa-aa60-ebd8b846a247",
       "4_Pyrochannels"
+    ],
+    [
+      "ddce239e-7d25-4405-ba08-be88c9d7e197",
+      "3_1_IMU0"
+    ],
+    [
+      "635bd7c4-5e22-41fc-a94b-24c70ec68ad6",
+      "3_2_IMU1"
+    ],
+    [
+      "7d7c22da-831e-427a-bd8b-82133b3e071a",
+      "3_3_BARO0"
+    ],
+    [
+      "4be799c5-21fb-4ad9-8abe-cb46e6670b52",
+      "3_4_BARO1"
+    ],
+    [
+      "0116074f-4ffa-4933-bd18-49ab1efe6740",
+      "3_5_RADIO"
+    ],
+    [
+      "a236b663-cf4a-476a-a7d7-39a24334fd19",
+      "3_6_SD"
     ]
   ],
   "text_variables": {},
