@@ -30,6 +30,10 @@
 // PERIPHERALS //
 /////////////////
 
-void tim2_1mhz_init(void);
+#define TIM2_PRESCALAR 16 // 1 us per tick
+#define TIM2_AUTO_RELOAD_VALUE 0xFFFFFFFFUL
+
+uint32_t millis();
+uint32_t micros();
 
 #endif

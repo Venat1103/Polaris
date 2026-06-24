@@ -14,7 +14,7 @@ void enter_standby(void* context) {
 }
 
 void enter_armed(void* context) {
-	return;
+    return;
 }
 
 void enter_boost(void* context) {
