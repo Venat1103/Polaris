@@ -1588,16 +1588,6 @@
 		)
 		(uuid "039cf799-4ac4-4d81-8978-f23b85614028")
 	)
-	(label "RF_TX"
-		(at 140.97 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5066286a-de63-4a12-a412-c170d756e2c0")
-	)
 	(label "RF_BOOT"
 		(at 146.05 111.76 180)
 		(effects
@@ -1608,15 +1598,27 @@
 		)
 		(uuid "e29556ae-10f3-446e-b11b-8a0f56e2c33a")
 	)
-	(label "RF_RX"
-		(at 140.97 99.06 0)
+	(hierarchical_label "RF_RX"
+		(shape input)
+		(at 140.97 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "f7d588d5-bd0b-4bb4-8cc2-f1b94e7c2cc4")
+		(uuid "53126881-d8f2-44a1-a8f5-69856842b742")
+	)
+	(hierarchical_label "RF_TX"
+		(shape output)
+		(at 140.97 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "721138dc-a4b0-40e6-a2c4-08569a404b91")
 	)
 	(netclass_flag ""
 		(length 2.54)

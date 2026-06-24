@@ -1151,16 +1151,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 90.17) (xy 182.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522d1493-9e6d-444e-9fdb-9d8a53daba91")
-	)
-	(wire
-		(pts
 			(xy 177.8 102.87) (xy 177.8 105.41)
 		)
 		(stroke
@@ -1171,16 +1161,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676d0445-39aa-4ac5-91ba-25076cd48bcb")
-	)
-	(wire
-		(pts
 			(xy 153.67 114.3) (xy 177.8 114.3)
 		)
 		(stroke
@@ -1188,26 +1168,6 @@
 			(type default)
 		)
 		(uuid "6d03ad22-12c7-482f-ad7d-af6bee4cd7cf")
-	)
-	(wire
-		(pts
-			(xy 124.46 95.25) (xy 132.08 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93cb3bea-f68a-4b3c-bb19-5965b5f2761d")
-	)
-	(wire
-		(pts
-			(xy 123.19 97.79) (xy 132.08 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94629a58-73c4-4f85-a53b-fa3d8be6ca26")
 	)
 	(wire
 		(pts
@@ -1241,6 +1201,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 102.87) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9728138-e7eb-4352-9efb-eddbc1aa9861")
+	)
+	(wire
+		(pts
 			(xy 109.22 87.63) (xy 111.76 87.63)
 		)
 		(stroke
@@ -1248,6 +1218,26 @@
 			(type default)
 		)
 		(uuid "baf0b22c-6367-427b-b48a-0cacab9ac4fe")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d3490b-ea1a-4e9e-b796-1e5a630e3dcc")
+	)
+	(wire
+		(pts
+			(xy 173.99 90.17) (xy 177.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf812625-612b-4d74-8556-685e05727d65")
 	)
 	(wire
 		(pts
@@ -1261,16 +1251,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 102.87) (xy 132.08 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e15739-4307-42e2-9683-0385e78f728b")
-	)
-	(wire
-		(pts
 			(xy 173.99 95.25) (xy 177.8 95.25)
 		)
 		(stroke
@@ -1278,6 +1258,16 @@
 			(type default)
 		)
 		(uuid "dd9e8dac-4d3c-4df7-b193-eeba548bf19e")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd18c8a-5509-4ff2-9084-40dcac3d1275")
 	)
 	(wire
 		(pts
@@ -1289,55 +1279,70 @@
 		)
 		(uuid "ee593a44-7559-407e-bfd6-8e79ca9503c6")
 	)
-	(label "ICM_CS"
-		(at 124.46 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 132.08 100.33)
 		)
-		(uuid "3dd5891d-7133-489b-8100-14cf3cc70308")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9ef7e5-9a22-4db0-90fb-c455721c0bf4")
 	)
-	(label "ICM_MOSI"
-		(at 123.19 100.33 0)
+	(hierarchical_label "IMU0_SCL"
+		(shape input)
+		(at 128.27 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "4dfdabb3-f4ae-42ff-b76b-d6cda8fe5ab1")
+		(uuid "2176feb2-1e57-4da0-8848-5c825cf711d8")
 	)
-	(label "ICM_SCK"
-		(at 123.19 97.79 0)
+	(hierarchical_label "IMU0_MISO"
+		(shape output)
+		(at 128.27 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "5d7f33ea-70a2-4bf1-aadc-68014602b572")
+		(uuid "27850add-c8ad-4b85-8a7a-5f4317b7f384")
 	)
-	(label "ICM_INT"
-		(at 182.88 90.17 180)
+	(hierarchical_label "IMU0_INT"
+		(shape output)
+		(at 177.8 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "79910358-c1e7-42ee-a468-1a97afb58007")
+		(uuid "5a55bff2-816e-4470-987d-579aff45a2ac")
 	)
-	(label "ICM_MISO"
-		(at 123.19 102.87 0)
+	(hierarchical_label "IMU0_CS"
+		(shape input)
+		(at 128.27 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "cb667c72-6843-4adf-9beb-6a45a3f010b5")
+		(uuid "606e7ab6-4980-4176-9d50-0967c10ed2ec")
+	)
+	(hierarchical_label "IMU0_MOSI"
+		(shape input)
+		(at 128.27 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0809046-f069-4e34-a03d-0417f4f85258")
 	)
 	(symbol
 		(lib_id "Device:C")

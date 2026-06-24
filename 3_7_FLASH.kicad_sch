@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "01bbadca-080f-4f79-b421-c36af88ea626")
+	(uuid "879d03cd-1fab-4e6c-8073-632a65179e1a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -160,14 +160,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Polaris_symbols:MicroSD_THD2528-11SD-GF"
+		(symbol "Memory_Flash:W25Q128JVE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 34.29 3.81 0)
+				(at -6.35 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -176,8 +176,8 @@
 					)
 				)
 			)
-			(property "Value" "THD-2528-11SD-GF"
-				(at 25.4 1.524 0)
+			(property "Value" "W25Q128JVE"
+				(at 7.62 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -186,7 +186,40 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+				(at 0 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+				(at 0 27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -197,7 +230,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_fp_filters" "WSON*1EP*8x6mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -208,34 +241,10 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MicroSD_THD2528-11SD-GF_0_1"
+			(symbol "W25Q128JVE_0_1"
 				(rectangle
-					(start 0 0)
-					(end 35.56 -31.75)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -26.67) (xy 8.89 -6.35) (xy 16.51 -6.35) (xy 20.32 -2.54) (xy 21.59 -2.54) (xy 21.59 -3.81)
-						(xy 24.13 -3.81) (xy 25.4 -2.54) (xy 38.1 -2.54) (xy 38.1 -26.67) (xy 8.89 -26.67)
-					)
+					(start -7.62 10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -244,100 +253,12 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 10.16 -6.985)
-					(end 12.7 -8.255)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 10.16 -9.525)
-					(end 12.7 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.065)
-					(end 12.7 -13.335)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.605)
-					(end 12.7 -15.875)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 10.16 -17.145)
-					(end 12.7 -18.415)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 10.16 -19.685)
-					(end 12.7 -20.955)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 10.16 -22.225)
-					(end 12.7 -23.495)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 10.16 -24.765)
-					(end 12.7 -26.035)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "MicroSD_THD2528-11SD-GF_1_1"
-				(pin bidirectional line
-					(at -2.54 -13.97 0)
+			(symbol "W25Q128JVE_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "DAT2"
+					(name "~{CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -353,9 +274,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 -16.51 0)
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "DAT3"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -369,12 +290,11 @@
 							)
 						)
 					)
-					(alternate "CD" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -2.54 -21.59 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "CMD"
+					(name "~{WP}/IO_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -390,9 +310,9 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 2.54 270)
+					(at 0 -12.7 90)
 					(length 2.54)
-					(name "VDD"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -407,10 +327,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 -19.05 0)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "CLK"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -425,10 +345,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -34.29 90)
+				(pin input line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "VSS"
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -444,9 +364,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 -8.89 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "DAT0"
+					(name "~{HOLD}/~{RESET}/IO_{3}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -461,10 +381,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -2.54 -11.43 0)
+				(pin power_in line
+					(at 0 12.7 270)
 					(length 2.54)
-					(name "DAT1"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -479,10 +399,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at -2.54 -24.13 0)
+				(pin passive line
+					(at 2.54 -12.7 90)
 					(length 2.54)
-					(name "CD"
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -490,81 +410,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -29.21 180)
-					(length 2.54)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -29.21 180)
-					(length 2.54)
-					(hide yes)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -29.21 180)
-					(length 2.54)
-					(hide yes)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -29.21 180)
-					(length 2.54)
-					(hide yes)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -831,398 +676,164 @@
 		)
 	)
 	(junction
-		(at 151.13 121.92)
+		(at 144.78 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35060b4b-d45b-452a-8c90-d3558474a4c2")
+		(uuid "a76d4004-9c93-4d53-9070-29f0a9946006")
 	)
-	(junction
-		(at 132.08 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "595ac5df-b881-4d07-9429-e66ae8e9e1f5")
-	)
-	(junction
-		(at 127 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd52f1a9-2b2f-4aa8-b022-f4ed4e2ebcb3")
-	)
-	(junction
-		(at 127 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5598ee1-f661-45b2-b4d8-2d347b782821")
+	(no_connect
+		(at 142.24 120.65)
+		(uuid "142d56a3-c070-448d-a694-dff606d624cc")
 	)
 	(wire
 		(pts
-			(xy 171.45 121.92) (xy 151.13 121.92)
+			(xy 154.94 107.95) (xy 158.75 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05fee8cd-b916-440c-b082-0cc58ba227b2")
+		(uuid "18db4049-38fb-41bd-a1f8-3ac690a2e752")
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 130.81 109.22)
+			(xy 154.94 113.03) (xy 158.75 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e378e25-d493-4cfb-92d3-522d913e99a9")
+		(uuid "1ac3635a-02d8-4169-8a66-0d30009d8b3b")
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 147.32 80.01)
+			(xy 130.81 90.17) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fd06886-0a2e-440e-983d-3eac40ccffda")
+		(uuid "273e5b11-c8ec-4874-9bc1-3dace7996d7c")
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 132.08 80.01)
+			(xy 154.94 100.33) (xy 158.75 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11addc32-4ac8-4bd1-812c-24109bde2fd3")
+		(uuid "3e53d2f2-bea4-4df8-b62c-bd04d299d3cc")
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 132.08 87.63)
+			(xy 154.94 102.87) (xy 158.75 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18f16f42-8689-4dc6-8643-5d8ced5a6a12")
+		(uuid "51949e14-ea97-4f74-9c79-16079f5bc81b")
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 130.81 99.06)
+			(xy 154.94 105.41) (xy 158.75 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "335e40b5-e74d-495a-be7b-d15002b405d3")
+		(uuid "58e83314-7524-4622-9aa5-9044c1646f6a")
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 130.81 101.6)
+			(xy 154.94 110.49) (xy 158.75 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ab474ad-58b8-4cad-826d-635c91dc1584")
+		(uuid "b68dbcca-a1e8-4e78-8027-55534ad91ed7")
 	)
 	(wire
 		(pts
-			(xy 171.45 116.84) (xy 171.45 121.92)
+			(xy 144.78 90.17) (xy 144.78 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a34b6f10-964c-45f2-8c92-dd0ed03ce36a")
+		(uuid "f12002b2-61d1-4220-83b9-0fccdd2c7459")
 	)
-	(wire
-		(pts
-			(xy 127 104.14) (xy 130.81 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b419f4b5-0187-4fa1-9a49-bc189468fec4")
-	)
-	(wire
-		(pts
-			(xy 127 106.68) (xy 130.81 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb33d447-5a6e-4492-b48c-907baf8cb556")
-	)
-	(wire
-		(pts
-			(xy 132.08 80.01) (xy 147.32 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf2a7e2-a56f-4c48-98b1-c94acb6c6d46")
-	)
-	(wire
-		(pts
-			(xy 127 111.76) (xy 130.81 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd0e555d-ab2f-4b0d-9c72-6313e4955b3e")
-	)
-	(wire
-		(pts
-			(xy 127 96.52) (xy 130.81 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df77805f-e43c-4e14-b637-08361806a929")
-	)
-	(hierarchical_label "SD_DAT1"
+	(hierarchical_label "FLASH_IO0"
 		(shape bidirectional)
-		(at 127 99.06 180)
+		(at 158.75 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "59d83697-89ce-49a2-a2d8-d26c7a691df6")
+		(uuid "2e3d2d6d-10af-4cd6-b285-5b814753834c")
 	)
-	(hierarchical_label "SD_DAT0"
-		(shape bidirectional)
-		(at 127 96.52 180)
+	(hierarchical_label "~{FLASH_CS}"
+		(shape input)
+		(at 158.75 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5a8d598e-51dd-4af0-8ef5-09ffcf4f4dc2")
+		(uuid "420881a7-e774-47ed-8bcf-77566cedc3c6")
 	)
-	(hierarchical_label "SD_DAT3"
+	(hierarchical_label "FLASH_IO2"
 		(shape bidirectional)
-		(at 127 104.14 180)
+		(at 158.75 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6807ac5a-c840-48bd-a2d9-903fe55d1884")
+		(uuid "46873d96-c3a4-43df-97a2-095f3bd94922")
 	)
-	(hierarchical_label "SD_CMD"
-		(shape bidirectional)
-		(at 127 109.22 180)
+	(hierarchical_label "FLASH_CLK"
+		(shape input)
+		(at 158.75 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "74abe9af-e1c1-4c70-a569-f46f86a1589b")
+		(uuid "48466cc5-3b2c-42de-835b-ee38ec0a0f1e")
 	)
-	(hierarchical_label "SD_CD"
+	(hierarchical_label "FLASH_IO1"
 		(shape bidirectional)
-		(at 127 111.76 180)
+		(at 158.75 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "76cafb62-db51-40d4-a58c-73b16948c8ba")
+		(uuid "6f521d5f-8226-4eee-8c10-608afa97c32c")
 	)
-	(hierarchical_label "SD_CLK"
+	(hierarchical_label "FLASH_IO3"
 		(shape bidirectional)
-		(at 127 106.68 180)
+		(at 158.75 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "7ccdbacc-c730-42fd-a9c1-7f13bb96ab7f")
-	)
-	(hierarchical_label "SD_DAT2"
-		(shape bidirectional)
-		(at 127 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aab325f1-fc98-42b2-9e2e-ea891f85b6fa")
-	)
-	(symbol
-		(lib_id "Polaris_symbols:MicroSD_THD2528-11SD-GF")
-		(at 133.35 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3da13b0e-7c5e-49a2-991e-d029380371ef")
-		(property "Reference" "U1101"
-			(at 171.45 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "THD-2528-11SD-GF"
-			(at 171.45 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Polaris:TF-SMD_THD2528-11SD-GF"
-			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d52f6836-ec6b-4490-a927-635c9d2ce113")
-		)
-		(pin "1"
-			(uuid "f4bb00f0-4451-447d-b5bf-e4e545868432")
-		)
-		(pin "3"
-			(uuid "20cb7f7f-75b9-418b-bc93-cacc43cfc119")
-		)
-		(pin "9"
-			(uuid "92ad6660-0aad-42b7-99ae-8385497136bd")
-		)
-		(pin "2"
-			(uuid "78cac676-dfc4-4c53-9175-2798213ad9cc")
-		)
-		(pin "6"
-			(uuid "657ad92f-716d-4b75-b04e-e906bcb69e76")
-		)
-		(pin "8"
-			(uuid "d8e11720-c703-4602-9ab2-eafbab053da1")
-		)
-		(pin "7"
-			(uuid "3b48fc93-579d-47e0-aaa1-862ce1e18094")
-		)
-		(pin "12"
-			(uuid "9756224f-08c1-4afc-8f9f-a965eb9e8b72")
-		)
-		(pin "10"
-			(uuid "fa8e034f-3e48-423a-9e72-85aa95e04a05")
-		)
-		(pin "5"
-			(uuid "58cd6dbe-9351-426f-886b-f336ca654ef2")
-		)
-		(pin "11"
-			(uuid "05cad6a0-1f49-4b4b-906a-af0e4d204162")
-		)
-		(pin "13"
-			(uuid "d8beb62f-2d95-423b-a250-15cde9b3bd11")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/a236b663-cf4a-476a-a7d7-39a24334fd19"
-					(reference "U1101")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d3b06b02-63e5-4768-9e5d-23660b06a68d")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 87.63 0)
-		(mirror y)
+		(at 144.78 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1231,9 +842,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "49bcdfa3-4e28-45eb-949e-89ff8f24600c")
-		(property "Reference" "#PWR01102"
-			(at 127 93.98 0)
+		(uuid "0b54814a-3d2f-4e05-9233-ea8fcff1794a")
+		(property "Reference" "#PWR01203"
+			(at 144.78 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1244,7 +855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 92.456 0)
+			(at 144.78 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1254,7 +865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 87.63 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1265,7 +876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 87.63 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1276,7 +887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 87.63 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,90 +898,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f20b6bdd-89fc-4a5f-8056-ce2422eebec4")
+			(uuid "2dc28193-f8d6-4d42-bc4a-86d516af145b")
 		)
 		(instances
 			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/a236b663-cf4a-476a-a7d7-39a24334fd19"
-					(reference "#PWR01102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "522dd3e0-7e7b-4979-9c2a-d098b413cf26")
-		(property "Reference" "#PWR01101"
-			(at 127 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 127 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90df9d87-4546-4235-a846-5105e6af2ec4")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/a236b663-cf4a-476a-a7d7-39a24334fd19"
-					(reference "#PWR01101")
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/ef3de1fa-bf11-4efb-95a6-016f9aad5910"
+					(reference "#PWR01203")
 					(unit 1)
 				)
 			)
@@ -1378,7 +911,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 83.82 0)
+		(at 130.81 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1386,9 +919,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8c883078-88b1-4c85-95c9-2b753b93931b")
-		(property "Reference" "C1102"
-			(at 134.62 82.55 0)
+		(uuid "31392562-3130-492d-9ed3-baa33473856e")
+		(property "Reference" "C1201"
+			(at 123.19 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1399,7 +932,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 134.62 85.09 0)
+			(at 123.19 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1410,7 +943,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.0452 87.63 0)
+			(at 131.7752 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1432,7 +965,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +976,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1454,7 +987,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,7 +998,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1476,7 +1009,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1487,7 +1020,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1498,7 +1031,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1509,7 +1042,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1520,7 +1053,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1531,7 +1064,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 132.08 83.82 0)
+			(at 130.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1541,16 +1074,16 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "5673d8d8-803b-4df7-9d39-0f22f0aa157c")
-		)
 		(pin "2"
-			(uuid "66844d1b-b50e-423a-8fde-8a1cad571db3")
+			(uuid "fef5247d-65a6-4ece-8e00-4a1ab249ae1a")
+		)
+		(pin "1"
+			(uuid "9383f949-83dd-48a8-8bc0-3eeed71b7850")
 		)
 		(instances
 			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/a236b663-cf4a-476a-a7d7-39a24334fd19"
-					(reference "C1102")
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/ef3de1fa-bf11-4efb-95a6-016f9aad5910"
+					(reference "C1201")
 					(unit 1)
 				)
 			)
@@ -1558,8 +1091,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 121.92 0)
-		(mirror y)
+		(at 130.81 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1568,9 +1100,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e959f839-8e46-43c8-9bf0-7e2ae8b86afb")
-		(property "Reference" "#PWR01103"
-			(at 151.13 128.27 0)
+		(uuid "42f72e64-8a1a-413c-acaa-2bd5d682f977")
+		(property "Reference" "#PWR01201"
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1581,7 +1113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 126.746 0)
+			(at 130.81 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1591,7 +1123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 121.92 0)
+			(at 130.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1602,7 +1134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 121.92 0)
+			(at 130.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +1145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 121.92 0)
+			(at 130.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1624,20 +1156,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "caa6341e-8e41-4dce-bf16-287d29f8e0fa")
+			(uuid "acc93b99-4727-4910-872b-c1e1fcdd63eb")
 		)
 		(instances
 			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/a236b663-cf4a-476a-a7d7-39a24334fd19"
-					(reference "#PWR01103")
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/ef3de1fa-bf11-4efb-95a6-016f9aad5910"
+					(reference "#PWR01201")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 83.82 0)
+		(lib_id "Memory_Flash:W25Q128JVE")
+		(at 144.78 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1645,31 +1178,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f36de347-50b6-4f34-acf7-80715a13c409")
-		(property "Reference" "C1101"
-			(at 124.46 82.55 0)
+		(uuid "679cc565-bb44-4230-b744-535dc40223df")
+		(property "Reference" "U1201"
+			(at 132.842 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 124.46 85.09 0)
+		(property "Value" "W25Q128JVE"
+			(at 132.842 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 87.63 0)
+		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+			(at 144.78 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1679,8 +1212,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 83.82 0)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 144.78 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,8 +1223,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 83.82 0)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 144.78 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1235,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1713,7 +1246,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1724,7 +1257,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1735,7 +1268,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1746,7 +1279,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1757,7 +1290,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1768,7 +1301,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1312,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1790,7 +1323,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 127 83.82 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1801,15 +1334,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "18e48123-e81f-447c-90f9-7087f32e2b79")
+			(uuid "6c6d2b2b-babb-44d8-88fc-4bd01c8c61ff")
+		)
+		(pin "4"
+			(uuid "7b96941d-ffdd-47b7-933d-64257450f999")
+		)
+		(pin "6"
+			(uuid "71610c02-9b02-4528-bb5d-27110db9df11")
+		)
+		(pin "8"
+			(uuid "1a0e31ac-28ad-46fd-b409-1751c865c91f")
+		)
+		(pin "7"
+			(uuid "444fe83b-c27c-4840-a1d1-2fb0bc86ad35")
+		)
+		(pin "9"
+			(uuid "1039ada5-eb4b-4b1e-a272-24878cd082a9")
 		)
 		(pin "2"
-			(uuid "4333aa04-0686-4a3d-9cff-7135810f7157")
+			(uuid "8a75535d-439e-4380-b1fe-61148a70e9e3")
+		)
+		(pin "3"
+			(uuid "3ad49bb6-59e4-4fee-b8be-14f8bb16d2a6")
+		)
+		(pin "5"
+			(uuid "62547dd9-c5f3-41b1-8c17-a8fb30cb5aea")
 		)
 		(instances
 			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/a236b663-cf4a-476a-a7d7-39a24334fd19"
-					(reference "C1101")
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/ef3de1fa-bf11-4efb-95a6-016f9aad5910"
+					(reference "U1201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1826e2-a57f-455f-929b-9d60f06eb457")
+		(property "Reference" "#PWR01202"
+			(at 144.78 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 144.78 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0769f9e-f75b-42d8-80a6-5c25e23a8441")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50/ef3de1fa-bf11-4efb-95a6-016f9aad5910"
+					(reference "#PWR01202")
 					(unit 1)
 				)
 			)

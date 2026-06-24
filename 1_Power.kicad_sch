@@ -9730,7 +9730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA8040S"
 			(at 245.11 67.31 0)
 			(hide yes)
 			(show_name no)

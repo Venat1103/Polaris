@@ -963,16 +963,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 160.02 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "153193d5-59b9-4a84-8151-dce56aab5ba2")
-	)
-	(wire
-		(pts
 			(xy 153.67 91.44) (xy 153.67 92.71)
 		)
 		(stroke
@@ -1003,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 163.83 113.03)
+			(xy 175.26 100.33) (xy 175.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1053,6 +1043,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 105.41) (xy 162.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebb0cab-2120-48a5-a7b3-96a5d7cec7ac")
+	)
+	(wire
+		(pts
 			(xy 128.27 85.09) (xy 134.62 85.09)
 		)
 		(stroke
@@ -1063,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 163.83 100.33)
+			(xy 152.4 100.33) (xy 175.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 113.03) (xy 152.4 113.03)
+			(xy 152.4 113.03) (xy 175.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1131,16 +1131,6 @@
 		)
 		(uuid "f6e2906c-4c62-43a1-80ea-9a6cf5287cc6")
 	)
-	(label "LPS_INT"
-		(at 160.02 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1290ecbe-1309-4163-a52a-23e21c7f0338")
-	)
 	(hierarchical_label "BARO1_SCL"
 		(shape input)
 		(at 162.56 97.79 0)
@@ -1151,6 +1141,17 @@
 			(justify left)
 		)
 		(uuid "b40e3dab-e289-45f3-ae19-ec9576f73a2d")
+	)
+	(hierarchical_label "BARO1_INT"
+		(shape output)
+		(at 162.56 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c46d15a5-1539-448a-9f67-73fecc9637d9")
 	)
 	(hierarchical_label "BARO1_SDA"
 		(shape bidirectional)
