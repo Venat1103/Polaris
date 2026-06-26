@@ -1,6 +1,96 @@
 # Polaris
 Open source flight computer
 
+## States
+- ### Boot
+  - Starts all the peripherals and calibrates
+  - No data logging
+
+- ### Failure Diagnosis
+  - Check in which state failure happened by:
+    - checking data coming from barometers
+    - checking continuity
+    - checking gps
+  - If `altitude = constant`
+    - `motor pyro = continuous` => SAFE (not ARMED)
+    - `motor pyro = discontinuous` => RECOVERY
+  - If `altitude = increasing`
+    - `acceleration > g` => BOOST
+    - `acceleration < g` => COAST
+  - If `altitude = decreasing`
+    - `drogue pyro = continuous` => DROGUE
+    - `main pyro = discontinuous` => MAIN
+  - By looking at data, transfers to the appropriate state which could be anything from safe to recovery
+
+- ### Safe
+  - Transmit telemetry
+- ### Armed
+  - Log data
+- ### Boost
+  - Fire both motor pyro charges
+- ### Coast
+- ### Drogue
+  - Fire both drogue chute pyro charges
+- ### Early Main
+  - Drogue chute deployment failed, fire both main chute pyro charges earlier than nominal (1500 feet)
+- ### Main
+  - Fire both main chute pyro charges
+- ### Recovery
+  - Turns off all sensors except for gps
+  - Transmit only gps
+
+## Transitions
+- ### Boot to Failure Diagnosis
+  Check what caused the microcontroller reset, if anything other
+  than power-on reset or reset button, go to `FAILURE DIAGNOSIS`
+- ### Boot to Safe
+  Check what caused the microcontroller reset, if power-on reset
+  or reset button, go to `SAFE`
+
+- ### Failure Diagnosis to Safe
+  - `altitude = constant`
+  - `motor pyro = continuous`
+- ### Failure Diagnosis to Recovery
+  - `altitude = constant`
+  - `motor pyro = discontinous`
+- ### Failure Diagnosis to Boost
+  - `altitude = increasing`
+  - `vertical acceleration = positive`
+- ### Failure Diagnosis to Coast
+  - `altitude = increasing`
+  - `vertical acceleration = -g`
+- ### Failure Diagnosis to Drogue
+  - `altitude = decreasing`
+  - `vertical acceleration > -g`
+- ### Failure Diagnosis to Early Main
+  - `altitude = decreasing`
+  - `altitude < [early main deployment altitude]`
+  - `vertical acceleration = -g`
+- ### Failure Diagnosis to Main
+  - `altitude = decreasing`
+  - `altitude < [main deployment altitude]`
+  - `vertical acceleration > -g`
+
+- ### Safe to Armed
+  - if ground station sends ARMED command
+- ### Armed to Boost
+  - if ground station sends FIRE command
+- ### Boost to Coast
+  - if acceleration goes from +ve to -ve
+- ### Coast to Drogue
+  - Apogee detection
+- ### Drogue to Early Main
+  - if acceleration is still g, even though drogue chutes were supposedly deployed, it means that drogue chutes failed
+  - altitude < early main chute deployment altitude (>1500 feet)
+- ### Drogue to Main
+  - altitude < main chute deployment altitude (1500 feet)
+- ### Early Main to Recovery
+  - huge change in vertical acceleration
+  - altitude = constant
+- ### Main to Recovery
+  - huge change in vertical acceleration
+  - altitude = constant
+
 ## Modules
 - ### STM32 F446 VE Tx `MICROCONTROLLER`
 - ### ICM 42688 P `IMU 0` - SPI 1
