@@ -4038,7 +4038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02b98d7e-58d9-4bbd-b2da-e64bd7e4de21")
-		(property "Reference" "U507"
+		(property "Reference" "U503"
 			(at 61.3567 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4145,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "U507")
+					(reference "U503")
 					(unit 1)
 				)
 			)
@@ -4895,7 +4895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16de8d26-c867-4785-8434-95f2b27e520c")
-		(property "Reference" "R516"
+		(property "Reference" "R518"
 			(at 202.184 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5058,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R516")
+					(reference "R518")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b55ea54-3e54-4a3f-9303-ab079561080e")
-		(property "Reference" "#PWR0520"
+		(property "Reference" "#PWR0522"
 			(at 196.85 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5136,7 +5136,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0520")
+					(reference "#PWR0522")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4d84a5-d337-4d7a-8341-37305ad07c11")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0504"
 			(at 66.04 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5214,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0505")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35bbcfe5-4c6b-4297-bdf1-8649be715c7e")
-		(property "Reference" "#PWR0527"
+		(property "Reference" "#PWR0510"
 			(at 92.71 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5738,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0527")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be7982d-9498-4264-af9c-53bac0e0e695")
-		(property "Reference" "#PWR0525"
+		(property "Reference" "#PWR0528"
 			(at 217.17 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5816,7 +5816,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0525")
+					(reference "#PWR0528")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e89223d-1532-4fb0-ac44-499ea98d3f76")
-		(property "Reference" "#PWR0523"
+		(property "Reference" "#PWR0526"
 			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5894,7 +5894,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0523")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
@@ -5990,7 +5990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46cdc698-562d-47af-a85e-785e48301679")
-		(property "Reference" "#PWR0517"
+		(property "Reference" "#PWR0519"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6050,7 +6050,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0517")
+					(reference "#PWR0519")
 					(unit 1)
 				)
 			)
@@ -6068,7 +6068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49a63422-a751-427a-b435-8220b42c293c")
-		(property "Reference" "#PWR0516"
+		(property "Reference" "#PWR0518"
 			(at 152.4 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6128,7 +6128,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0516")
+					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
@@ -6146,7 +6146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bc90726-c783-45bb-9704-c5fe7ddf256e")
-		(property "Reference" "#PWR0518"
+		(property "Reference" "#PWR0520"
 			(at 181.61 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6206,7 +6206,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0518")
+					(reference "#PWR0520")
 					(unit 1)
 				)
 			)
@@ -6671,7 +6671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53b20c95-d38f-41f6-8bea-5841aab33d13")
-		(property "Reference" "R512"
+		(property "Reference" "R514"
 			(at 156.21 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,7 +6733,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R512")
+					(reference "R514")
 					(unit 1)
 				)
 			)
@@ -6751,7 +6751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5689bea4-1c63-4c8c-a327-6201e6da5f85")
-		(property "Reference" "R513"
+		(property "Reference" "R515"
 			(at 205.74 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,7 +6912,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R513")
+					(reference "R515")
 					(unit 1)
 				)
 			)
@@ -7089,7 +7089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6727c3e5-d133-448f-b05f-1cb5c314f483")
-		(property "Reference" "#PWR0515"
+		(property "Reference" "#PWR0517"
 			(at 144.78 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7149,7 +7149,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0515")
+					(reference "#PWR0517")
 					(unit 1)
 				)
 			)
@@ -7595,7 +7595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bdfb8f2-07b9-4b4f-85c8-f56d0e4d5569")
-		(property "Reference" "R519"
+		(property "Reference" "R508"
 			(at 110.49 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7659,7 +7659,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R519")
+					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -7864,7 +7864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "869a6493-f839-4c4b-a756-1f4fedea1e51")
-		(property "Reference" "#PWR0526"
+		(property "Reference" "#PWR0511"
 			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7924,7 +7924,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0526")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -7942,7 +7942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "921f7ad7-327f-48dd-b118-e1bfe5641984")
-		(property "Reference" "#PWR0522"
+		(property "Reference" "#PWR0525"
 			(at 209.55 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8002,7 +8002,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0522")
+					(reference "#PWR0525")
 					(unit 1)
 				)
 			)
@@ -8020,7 +8020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972991c6-87a2-4168-8b85-9c8bc1dca8e7")
-		(property "Reference" "#PWR0521"
+		(property "Reference" "#PWR0523"
 			(at 198.12 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8080,7 +8080,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0521")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 			)
@@ -8098,7 +8098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ffa8a2-c38c-4c60-9045-51094dbc7e5a")
-		(property "Reference" "#PWR0514"
+		(property "Reference" "#PWR0516"
 			(at 144.78 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8158,7 +8158,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0514")
+					(reference "#PWR0516")
 					(unit 1)
 				)
 			)
@@ -8254,7 +8254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eb25f60-3b98-44ee-b079-149c35e9330a")
-		(property "Reference" "R511"
+		(property "Reference" "R513"
 			(at 156.21 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,7 +8316,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R511")
+					(reference "R513")
 					(unit 1)
 				)
 			)
@@ -8334,7 +8334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4dd2156-b26f-4d71-a5e0-054b816a5b26")
-		(property "Reference" "#PWR0512"
+		(property "Reference" "#PWR0514"
 			(at 132.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8394,7 +8394,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0512")
+					(reference "#PWR0514")
 					(unit 1)
 				)
 			)
@@ -8412,7 +8412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa77c4b5-cfdf-43b6-98d0-7ec492b5eeae")
-		(property "Reference" "U503"
+		(property "Reference" "U504"
 			(at 124.46 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8582,7 +8582,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "U503")
+					(reference "U504")
 					(unit 1)
 				)
 			)
@@ -8600,7 +8600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae0628b9-f6eb-4366-ae38-e0942b39d025")
-		(property "Reference" "#PWR0528"
+		(property "Reference" "#PWR0505"
 			(at 68.58 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8660,7 +8660,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0528")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -8677,7 +8677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae0e50ee-d96f-44f5-9d03-40edd5aed2c8")
-		(property "Reference" "R515"
+		(property "Reference" "R517"
 			(at 202.184 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +8840,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R515")
+					(reference "R517")
 					(unit 1)
 				)
 			)
@@ -9044,7 +9044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b174dde8-8ea8-40cf-9cb0-a87c9724b604")
-		(property "Reference" "R510"
+		(property "Reference" "R512"
 			(at 137.668 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9207,7 +9207,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R510")
+					(reference "R512")
 					(unit 1)
 				)
 			)
@@ -9460,7 +9460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c52d6526-c23a-44a3-83ff-c738e08f57c2")
-		(property "Reference" "#PWR0513"
+		(property "Reference" "#PWR0515"
 			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9520,7 +9520,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0513")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -9538,7 +9538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d72328-672f-4b3e-9670-20cb49564e4d")
-		(property "Reference" "#PWR0510"
+		(property "Reference" "#PWR0512"
 			(at 116.84 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9598,7 +9598,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0510")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -9616,7 +9616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca3c79d6-6021-4149-ba40-bc0be51cfe2a")
-		(property "Reference" "U506"
+		(property "Reference" "U507"
 			(at 190.5 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9786,7 +9786,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "U506")
+					(reference "U507")
 					(unit 1)
 				)
 			)
@@ -9804,7 +9804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1a7608-3dca-472a-b721-b9a754ceacbc")
-		(property "Reference" "#PWR0519"
+		(property "Reference" "#PWR0521"
 			(at 182.88 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +9864,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0519")
+					(reference "#PWR0521")
 					(unit 1)
 				)
 			)
@@ -9881,7 +9881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d50a678e-f6df-4096-8633-5b7ae944cb00")
-		(property "Reference" "R509"
+		(property "Reference" "R511"
 			(at 137.668 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10044,7 +10044,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R509")
+					(reference "R511")
 					(unit 1)
 				)
 			)
@@ -10062,7 +10062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5ed15ac-86b4-47d1-abca-9a966f4bfbd8")
-		(property "Reference" "#PWR0524"
+		(property "Reference" "#PWR0527"
 			(at 217.17 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10122,7 +10122,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0524")
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
@@ -10140,7 +10140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9601f94-25ca-4d88-a969-18bbb32ec094")
-		(property "Reference" "U505"
+		(property "Reference" "U506"
 			(at 189.23 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10310,7 +10310,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "U505")
+					(reference "U506")
 					(unit 1)
 				)
 			)
@@ -10328,7 +10328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da710e4c-7aa1-4fec-a79e-dd7562c2afa5")
-		(property "Reference" "#PWR0511"
+		(property "Reference" "#PWR0513"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10388,7 +10388,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0511")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -10406,7 +10406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc3302f-e03a-4416-9b6a-1c4117b309db")
-		(property "Reference" "R518"
+		(property "Reference" "R520"
 			(at 220.98 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10468,7 +10468,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R518")
+					(reference "R520")
 					(unit 1)
 				)
 			)
@@ -10673,7 +10673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60d5a08-0cf2-40ba-ba71-1e336c439446")
-		(property "Reference" "R508"
+		(property "Reference" "R510"
 			(at 140.97 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10834,7 +10834,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R508")
+					(reference "R510")
 					(unit 1)
 				)
 			)
@@ -10852,7 +10852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8905cd6-9f1d-43f4-94ab-75154fc88dd4")
-		(property "Reference" "R520"
+		(property "Reference" "R507"
 			(at 95.25 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,7 +10916,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R520")
+					(reference "R507")
 					(unit 1)
 				)
 			)
@@ -11121,7 +11121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee5a6808-cdda-4e9d-a747-8708961f9090")
-		(property "Reference" "U504"
+		(property "Reference" "U505"
 			(at 124.46 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11291,7 +11291,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "U504")
+					(reference "U505")
 					(unit 1)
 				)
 			)
@@ -11309,7 +11309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f419bc77-2200-43f1-8d7d-5ffe12f2f364")
-		(property "Reference" "R517"
+		(property "Reference" "R519"
 			(at 220.98 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,7 +11371,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R517")
+					(reference "R519")
 					(unit 1)
 				)
 			)
@@ -11467,7 +11467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7439ad0-9e1f-44aa-8346-5d182aeff8df")
-		(property "Reference" "R507"
+		(property "Reference" "R509"
 			(at 140.97 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11628,7 +11628,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R507")
+					(reference "R509")
 					(unit 1)
 				)
 			)
@@ -11646,7 +11646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9369628-8b74-40b9-822f-eb9e0a6a56d8")
-		(property "Reference" "R514"
+		(property "Reference" "R516"
 			(at 205.74 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11807,7 +11807,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "R514")
+					(reference "R516")
 					(unit 1)
 				)
 			)
@@ -11825,7 +11825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc973bd-cf5b-467a-9db3-14d68631f4fb")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0524"
 			(at 207.01 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11885,7 +11885,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/265a53e7-5f21-42fa-aa60-ebd8b846a247"
-					(reference "#PWR0504")
+					(reference "#PWR0524")
 					(unit 1)
 				)
 			)
