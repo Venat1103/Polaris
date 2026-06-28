@@ -4334,7 +4334,6 @@
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
 		(at 149.86 102.87 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4344,7 +4343,7 @@
 		(dnp no)
 		(uuid "0a7008a9-f785-4b30-9a45-d9d04ac8b9bb")
 		(property "Reference" "Q504"
-			(at 155.448 104.1401 0)
+			(at 155.448 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4355,7 +4354,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 155.448 101.6001 0)
+			(at 155.448 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4366,7 +4365,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 154.94 100.965 0)
+			(at 154.94 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4379,7 +4378,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 154.94 99.06 0)
+			(at 154.94 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +4520,6 @@
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
 		(at 214.63 63.5 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4531,7 +4529,7 @@
 		(dnp no)
 		(uuid "0b62330f-be8d-435a-b370-aeb7fcd44b51")
 		(property "Reference" "Q505"
-			(at 220.98 64.7701 0)
+			(at 220.98 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4542,7 +4540,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 220.98 62.2301 0)
+			(at 220.98 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4553,7 +4551,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 219.71 61.595 0)
+			(at 219.71 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4566,7 +4564,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 219.71 59.69 0)
+			(at 219.71 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7668,7 +7666,6 @@
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
 		(at 82.55 104.14 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7678,7 +7675,7 @@
 		(dnp no)
 		(uuid "7f3b697d-791b-4d87-bc11-4e1ed7e2e788")
 		(property "Reference" "Q502"
-			(at 88.9 105.4101 0)
+			(at 88.9 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7689,7 +7686,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 88.9 102.8701 0)
+			(at 88.9 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7700,7 +7697,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 87.63 102.235 0)
+			(at 87.63 106.045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7713,7 +7710,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 87.63 100.33 0)
+			(at 87.63 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8849,7 +8846,6 @@
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
 		(at 82.55 64.77 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8859,7 +8855,7 @@
 		(dnp no)
 		(uuid "b0cede4c-ca16-42e2-8148-d4914d55d988")
 		(property "Reference" "Q501"
-			(at 88.392 66.0401 0)
+			(at 88.392 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8870,7 +8866,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 88.392 63.5001 0)
+			(at 88.392 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8881,7 +8877,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 87.63 62.865 0)
+			(at 87.63 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8894,7 +8890,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 87.63 60.96 0)
+			(at 87.63 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10477,7 +10473,6 @@
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
 		(at 149.86 63.5 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10487,7 +10482,7 @@
 		(dnp no)
 		(uuid "dfab3678-6a00-412b-988b-11004f5f89e9")
 		(property "Reference" "Q503"
-			(at 156.21 64.7701 0)
+			(at 156.21 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10498,7 +10493,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 156.21 62.2301 0)
+			(at 156.21 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10509,7 +10504,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 154.94 61.595 0)
+			(at 154.94 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10522,7 +10517,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 154.94 59.69 0)
+			(at 154.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10925,7 +10920,6 @@
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
 		(at 214.63 102.87 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10935,7 +10929,7 @@
 		(dnp no)
 		(uuid "ec973f4c-dd62-4422-99a1-6c8cd18e98b5")
 		(property "Reference" "Q506"
-			(at 220.218 104.1401 0)
+			(at 220.218 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10946,7 +10940,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 220.218 101.6001 0)
+			(at 220.218 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10957,7 +10951,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 219.71 100.965 0)
+			(at 219.71 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10970,7 +10964,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 219.71 99.06 0)
+			(at 219.71 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
