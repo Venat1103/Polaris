@@ -3068,7 +3068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0751f1f2-c63c-47ab-b8b7-544227339356")
-		(property "Reference" "J107"
+		(property "Reference" "J104"
 			(at 139.7 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3135,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J107")
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -3769,7 +3769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23150a4e-2de3-434d-a563-36df3e59e6fe")
-		(property "Reference" "J103"
+		(property "Reference" "J106"
 			(at 114.3 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3932,7 +3932,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J103")
+					(reference "J106")
 					(unit 1)
 				)
 			)
@@ -4315,7 +4315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51724864-c70d-4675-99e6-2f1df4bcc9bc")
-		(property "Reference" "J110"
+		(property "Reference" "J105"
 			(at 153.67 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4385,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J110")
+					(reference "J105")
 					(unit 1)
 				)
 			)
@@ -5436,7 +5436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9442e0a5-b3bd-4861-8d76-2a761899ba82")
-		(property "Reference" "J109"
+		(property "Reference" "J110"
 			(at 149.86 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +5599,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J109")
+					(reference "J110")
 					(unit 1)
 				)
 			)
@@ -6033,7 +6033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c25bac7b-3a0b-449a-b9ee-ec83615da599")
-		(property "Reference" "J104"
+		(property "Reference" "J103"
 			(at 125.73 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6097,7 +6097,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J104")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -6372,7 +6372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d66517a2-e3b8-4231-9fa1-835afe5ceb4e")
-		(property "Reference" "J105"
+		(property "Reference" "J107"
 			(at 123.19 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +6535,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J105")
+					(reference "J107")
 					(unit 1)
 				)
 			)
@@ -6717,7 +6717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5194b70-8c95-44b7-aab3-0ae7748d2ac2")
-		(property "Reference" "J106"
+		(property "Reference" "J108"
 			(at 132.08 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +6880,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J106")
+					(reference "J108")
 					(unit 1)
 				)
 			)
@@ -6897,7 +6897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efa45ced-d965-4f44-b5a8-0af4970f6b8d")
-		(property "Reference" "J108"
+		(property "Reference" "J109"
 			(at 140.97 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7060,7 +7060,7 @@
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J108")
+					(reference "J109")
 					(unit 1)
 				)
 			)

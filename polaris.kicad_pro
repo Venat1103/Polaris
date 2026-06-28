@@ -543,9 +543,9 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2032,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.286258,
+        "diff_pair_width": 0.307594,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
