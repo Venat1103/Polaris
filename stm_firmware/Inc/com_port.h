@@ -13,8 +13,10 @@
 
 #include "stm32f446xx.h"
 
-void com_port_init(char* buffer);
+void com_port_init();
+void com_port_log(char* buffer);
 void com_port_transmit(char* buffer);
+void com_port_flush();
 
 #define USART_BAUDRATE 115200
 

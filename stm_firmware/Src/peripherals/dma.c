@@ -64,6 +64,7 @@ void dma_init(DMA_TypeDef* dma, DMA_Config* config) {
 }
 
 void dma_transfer(DMA_TypeDef* dma, DMA_Config* config, uint32_t len) {
+    if (len < 1) {return;}
     while (config->stream->CR & DMA_SxCR_EN);
 
     dma_clear_flags(dma, config->stream);

@@ -8,6 +8,8 @@
 #ifndef FLIGHT_PROPERTIES_H
 #define FLIGHT_PROPERTIES_H
 
+#include "build_config.h"
+
 typedef enum {
     Flight_State_Standby,
     Flight_State_Armed,
@@ -35,7 +37,7 @@ typedef struct {
     #if defined(ACTUATION_THRUST_VECTOR)
         float tvc_angle[2];
     #elif defined(ACTUATION_CONTROL_SURFACE)
-        float ACTUATION_CONTROL_SURFACE_angle[4];
+        float control_surface_angle[4];
     #endif
 
     float heading;

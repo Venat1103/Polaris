@@ -12,8 +12,6 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "machine/fsm.h"
-
 /////////////////////////
 // BUILD CONFIGURATION //
 /////////////////////////
@@ -26,9 +24,22 @@
 
 #include "flight_properties.h"
 
+//////////////////////////
+// FINITE STATE MACHINE //
+//////////////////////////
+
+#include "machine/fsm.h"
+#include "machine/state_functions.h"
+#include "machine/transition_functions.h"
+
 /////////////////
 // PERIPHERALS //
 /////////////////
+
+#include "peripherals/gpio.h"
+#include "peripherals/rcc.h"
+#include "peripherals/tim.h"
+#include "peripherals/usart.h"
 
 #define TIM2_PRESCALAR 16 // 1 us per tick
 #define TIM2_AUTO_RELOAD_VALUE 0xFFFFFFFFUL
