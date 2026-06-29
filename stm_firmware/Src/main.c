@@ -32,7 +32,7 @@ uint32_t millis() {
 #if defined(DEBUG_LOGGING)
     #include "com_port.h"
 
-    char buffer[512];
+    // char buffer[512];
 
     uint32_t last_1 = 0;
     uint32_t last_05 = 0;
@@ -218,11 +218,6 @@ void machine_heartbeat(FSM* fsm) {
 
             com_port_flush();
             gpio_toggle(GPIOA, 5);
-            // if (fsm->context->chamber_pressure > 4570.0) {
-            //     gpio_toggle(GPIOA, 5);
-            // } else {
-            //     fsm->context->chamber_pressure += 1.0;
-            // }
         }
     #endif
 }

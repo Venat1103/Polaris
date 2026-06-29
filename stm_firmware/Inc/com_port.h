@@ -18,6 +18,8 @@ void com_port_log(char* buffer);
 void com_port_transmit(char* buffer);
 void com_port_flush();
 
+extern char buffer[];
+
 #define USART_BAUDRATE 115200
 
 #endif

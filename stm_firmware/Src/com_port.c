@@ -22,6 +22,7 @@
 DMA_Config dma1_stream6_channel4_config;
 
 #define buffer_size 2048
+char buffer[buffer_size];
 char master_buffer_1[buffer_size];
 char master_buffer_2[buffer_size];
 bool master_buffer_1_transmit_ready = true;
