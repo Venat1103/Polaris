@@ -4677,7 +4677,7 @@
 		)
 		(uuid "fdfbcd1d-06fe-43ee-b7a6-796e6edc90fa")
 	)
-	(label "VSENSE"
+	(label "IN"
 		(at 82.55 107.95 0)
 		(effects
 			(font
