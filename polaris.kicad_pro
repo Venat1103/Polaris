@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 0,
+          "pad_connection": 1,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.8
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -266,7 +266,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1435100|698500|60bb7c63-e1c5-46d6-bf81-a255dbf39142|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1524000|1041400|c362bfb0-7f74-4193-bb3f-1c755f78191e|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1536700|1003300|b25bf792-3f6d-4aa3-9b75-249b5c6a3528|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2565400|889000|4e678a3c-783f-41c7-878d-5b5fde3d5cb2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|787400|1028700|aefe0867-3f33-46e5-8ba2-73095a786d09|dacd9b0a-a7be-4ce5-8272-f8fc9e6f1650|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -942,7 +963,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J118-119,#PWR114-117",
     "variants": []
   },
   "sheets": [
@@ -981,10 +1002,6 @@
     [
       "4be799c5-21fb-4ad9-8abe-cb46e6670b52",
       "3_4_BARO1"
-    ],
-    [
-      "0116074f-4ffa-4933-bd18-49ab1efe6740",
-      "3_5_RADIO"
     ],
     [
       "a236b663-cf4a-476a-a7d7-39a24334fd19",
