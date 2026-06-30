@@ -25,19 +25,19 @@ All connected to NAV only
 - Barometric Pressure Sensors:
 	- TE Connectivity MS5607-02BA03
 	- ST Microelectronics LPS22HHTR
-- GNSS Module: u-blox GPS NEO-7M
+- GNSS Module: Any GNSS module can be connected to the 4-pin JST-XH UART header
 
 I used the LSM6DSO32 since dedicated high-G accelerometers were either unavailable or too expensive.\
 I used two barometers for redundancy.\
-I wanted to use the newer GPS NEO-M8N instead of the NEO-7M since it has reached EoL. Unfortunately it is out of stock wherever I search, or is four times any reasonable price.
+The GNSS module I chose is the 7Semi breakout board of the Quectel L89HA dual-band GNSS engine (it also supports NavIC, which is cool).
 ## 4. Communication and Logging:
 All sensor and calculated data is communicated through/logged to:
-- Telemetry: Ai-Thinker Ra-08H
+- Telemetry: Any telemetry radio can be connected to the 4-pin JST-XH UART header
 - Logging:
 	- MicroSD Card slot
 	- Winbond W25Q128JVE 16 MB flash
 
-The Ra-08H is a fairly cheap LoRa module based on the ASR6601 SoC, working at anywhere between 803-930 MHz.\
+I chose the Ra-01SH based on the Semtech SX1262 as the wireless radio.\
 I chose a flash chip to log to since it is actually soldered to the board and can survive much higher vibration environments.\
 I still opted to add a microSD slot for the flexibility.
 ## 5. Active Control:
