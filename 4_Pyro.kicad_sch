@@ -3694,7 +3694,7 @@
 		)
 		(uuid "3f15701a-4089-468e-8fab-b3be1f2cd14b")
 	)
-	(label "PYRO_0"
+	(label "PYRO_2"
 		(at 44.45 143.51 0)
 		(effects
 			(font
@@ -3744,7 +3744,7 @@
 		)
 		(uuid "5a54f9f4-e005-4563-a766-b1f5939c5e19")
 	)
-	(label "PYRO_2"
+	(label "PYRO_0"
 		(at 44.45 148.59 0)
 		(effects
 			(font

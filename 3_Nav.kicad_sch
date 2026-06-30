@@ -6058,16 +6058,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 110.49) (xy 196.85 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d07a3ef-783e-4281-bdfc-bdb2185f5f01")
-	)
-	(wire
-		(pts
 			(xy 31.75 182.88) (xy 39.37 182.88)
 		)
 		(stroke
@@ -6275,16 +6265,6 @@
 			(type default)
 		)
 		(uuid "bd6098db-f7e0-496b-80c3-130b4675074b")
-	)
-	(wire
-		(pts
-			(xy 190.5 113.03) (xy 196.85 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0761cda-6271-4bbd-9cdc-0fd5ecc2a752")
 	)
 	(wire
 		(pts
@@ -6816,16 +6796,6 @@
 		)
 		(uuid "231949ff-aa96-40d4-b782-8569d2ef7985")
 	)
-	(label "RF_TX"
-		(at 190.5 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d431d31-d3f5-4005-b994-99e7d67f3324")
-	)
 	(label "NAV_STAT1"
 		(at 208.28 48.26 0)
 		(effects
@@ -6885,16 +6855,6 @@
 			(justify right bottom)
 		)
 		(uuid "3c31a993-7d50-49e1-b5b9-6c28f8c588cd")
-	)
-	(label "RF_RX"
-		(at 190.5 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e8c4c26-139f-4071-8b63-14e133ac54b0")
 	)
 	(label "GPS_RX"
 		(at 172.72 53.34 180)
@@ -6985,16 +6945,6 @@
 			(justify right bottom)
 		)
 		(uuid "6278bd84-95df-47d1-8c83-9878ad9c7c0b")
-	)
-	(label "RF_RX"
-		(at 107.95 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63a22eb2-0e0a-4b27-94cb-58b01f5c12c1")
 	)
 	(label "ICM_CS"
 		(at 172.72 63.5 180)
@@ -7305,16 +7255,6 @@
 			(justify right bottom)
 		)
 		(uuid "cee00322-fc26-4bd2-bf45-0b31aaf98ac4")
-	)
-	(label "RF_TX"
-		(at 107.95 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d12a2df4-adf9-4996-947e-05ce98dccdb8")
 	)
 	(label "FLASH_IO0"
 		(at 62.23 105.41 180)
@@ -7666,6 +7606,17 @@
 		)
 		(uuid "99d7127e-4974-410a-9202-42d84bd36826")
 	)
+	(hierarchical_label "RF_RX"
+		(shape input)
+		(at 107.95 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99f92bae-9698-4828-a5f1-5a9bd2fbb11c")
+	)
 	(hierarchical_label "PB4"
 		(shape bidirectional)
 		(at 180.34 106.68 0)
@@ -7676,6 +7627,17 @@
 			(justify left)
 		)
 		(uuid "9daa2076-9853-4759-bc49-52c8741800d0")
+	)
+	(hierarchical_label "RF_TX"
+		(shape output)
+		(at 107.95 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9f34c83-4032-44ed-a583-f5a452bc2f0e")
 	)
 	(hierarchical_label "SPI4_MISO"
 		(shape input)
@@ -15099,72 +15061,6 @@
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
 					(reference "#PWR0409")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 196.85 107.95)
-		(size 33.02 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "0116074f-4ffa-4933-bd18-49ab1efe6740")
-		(property "Sheetname" "3_5_RADIO"
-			(at 196.85 107.2384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "3_5_RADIO.kicad_sch"
-			(at 196.85 132.6646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "RF_TX" output
-			(at 196.85 110.49 180)
-			(uuid "da9149ef-4068-4633-a9c6-a5f3159713e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RF_RX" input
-			(at 196.85 113.03 180)
-			(uuid "d1353307-7678-46f0-9003-71974055f034")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
-					(page "10")
 				)
 			)
 		)
