@@ -6866,7 +6866,7 @@
 		)
 		(uuid "423288a2-7b61-443f-8de0-2273a6893160")
 	)
-	(label "NAV_STAT1"
+	(label "NAV_STAT4"
 		(at 95.25 129.54 0)
 		(effects
 			(font
@@ -7146,7 +7146,7 @@
 		)
 		(uuid "9d08e3a2-a538-46ed-8cd1-01079c90ff11")
 	)
-	(label "NAV_STAT4"
+	(label "NAV_STAT1"
 		(at 95.25 137.16 0)
 		(effects
 			(font
@@ -7266,7 +7266,7 @@
 		)
 		(uuid "d66f52fa-0665-41a8-8a7a-a038f5b6e21c")
 	)
-	(label "NAV_STAT2"
+	(label "NAV_STAT3"
 		(at 95.25 132.08 0)
 		(effects
 			(font
@@ -7286,7 +7286,7 @@
 		)
 		(uuid "de366578-d0c6-48d7-b00f-b6c37600e05a")
 	)
-	(label "NAV_STAT3"
+	(label "NAV_STAT2"
 		(at 95.25 134.62 0)
 		(effects
 			(font
