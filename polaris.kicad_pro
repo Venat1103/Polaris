@@ -293,10 +293,6 @@
         ""
       ],
       [
-        "lib_symbol_mismatch|2565400|889000|4e678a3c-783f-41c7-878d-5b5fde3d5cb2|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
         "pin_to_pin|787400|1028700|aefe0867-3f33-46e5-8ba2-73095a786d09|dacd9b0a-a7be-4ce5-8272-f8fc9e6f1650|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0|/cfb90e19-9fbe-47a1-a5ac-df522853d1d0",
         ""
       ]
@@ -536,8 +532,8 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.12,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -547,43 +543,59 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.12,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "name": "RF_Antenna",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "clearance": 0.15,
+        "name": "FLASH",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 255, 0)",
+        "track_width": 0.2,
+        "tuning_profile": ""
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(89, 89, 89)",
+        "priority": 3,
+        "schematic_color": "rgb(89, 89, 89)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MCU_PWR",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgb(255, 0, 255)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.34925,
+        "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": ""
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "TLM_Link",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "name": "SD_CARD",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.2,
-        "via_drill": 0.3
+        "tuning_profile": ""
       },
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.307594,
+        "diff_pair_width": 0.286258,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 255, 255)",
         "tuning_profile": ""
       }
     ],
@@ -592,6 +604,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+3.3V": [
+        "MCU_PWR"
+      ],
+      "/1_Power/USB_VCC": [
+        "PWR"
+      ],
       "/2_USB/NAV_USB_D+": [
         "USB"
       ],
@@ -611,6 +629,9 @@
         "USB"
       ],
       "/2_USB/USB_D+": [
+        "USB"
+      ],
+      "/2_USB/USB_D+_": [
         "USB"
       ],
       "/2_USB/USB_D-": [
@@ -669,6 +690,9 @@
       ],
       "Net-(J502-In)": [
         "RF_Antenna"
+      ],
+      "VBAT_VIN": [
+        "PWR"
       ]
     },
     "netclass_patterns": [
@@ -677,7 +701,7 @@
         "pattern": "USB_*"
       },
       {
-        "netclass": "TLM_Link",
+        "netclass": "Default",
         "pattern": "TLM_*"
       },
       {
@@ -687,6 +711,22 @@
       {
         "netclass": "USB",
         "pattern": "NAV_USB_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "SD_CARD",
+        "pattern": "/3_NavigationProcessor/SD*"
+      },
+      {
+        "netclass": "FLASH",
+        "pattern": "/3_NavigationProcessor/FLASH*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "POWER"
       }
     ]
   },
@@ -976,7 +1016,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L202,#PWR211,#PWR213,#PWR215-216,#PWR402,#PWR422-423,R208-209,#FLG202,C208,C211,C213,C216,C218-220,U204,FB401-402",
     "variants": []
   },
   "sheets": [

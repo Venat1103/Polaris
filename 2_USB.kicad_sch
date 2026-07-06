@@ -2555,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 191.77 74.93)
+			(xy 187.96 74.93) (xy 193.04 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 191.77 72.39)
+			(xy 187.96 72.39) (xy 193.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2903,6 +2903,16 @@
 		)
 		(uuid "fa20b08d-9f99-4eb7-8de5-511612f63ab3")
 	)
+	(label "USB_D+_"
+		(at 187.96 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07aa607e-a4eb-4ada-b4b1-7359c5c7ef99")
+	)
 	(label "USB_VCC"
 		(at 104.14 77.47 0)
 		(effects
@@ -2913,7 +2923,7 @@
 		)
 		(uuid "0e2ba874-c85f-4ec3-969b-2babb011b85b")
 	)
-	(label "USBC_CC2"
+	(label "CONN_CC2"
 		(at 135.89 74.93 0)
 		(effects
 			(font
@@ -2946,7 +2956,7 @@
 			)
 		)
 	)
-	(label "USB_CC2"
+	(label "CC2"
 		(at 165.1 74.93 180)
 		(effects
 			(font
@@ -2956,7 +2966,7 @@
 		)
 		(uuid "3f54d2a6-8353-4dec-94ae-501cc929bff0")
 	)
-	(label "USBC_CC1"
+	(label "CONN_CC1"
 		(at 111.76 85.09 180)
 		(effects
 			(font
@@ -2999,7 +3009,17 @@
 		)
 		(uuid "7b333f76-fd69-450d-a5b8-0066536cc6ba")
 	)
-	(label "USBC_CC2"
+	(label "USB_D-"
+		(at 187.96 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3a2287-7082-464a-8000-d668e58ed463")
+	)
+	(label "CONN_CC2"
 		(at 111.76 87.63 180)
 		(effects
 			(font
@@ -3032,7 +3052,7 @@
 			)
 		)
 	)
-	(label "USBC_CC1"
+	(label "CONN_CC1"
 		(at 135.89 72.39 0)
 		(effects
 			(font
@@ -3065,7 +3085,7 @@
 			)
 		)
 	)
-	(label "USB_CC1"
+	(label "CC1"
 		(at 147.32 113.03 0)
 		(effects
 			(font
@@ -3075,7 +3095,7 @@
 		)
 		(uuid "e1923e8a-8905-4c03-bff8-ac8a99c1ad0b")
 	)
-	(label "USB_CC2"
+	(label "CC2"
 		(at 147.32 115.57 0)
 		(effects
 			(font
@@ -3095,7 +3115,7 @@
 		)
 		(uuid "f0fd1e15-ee9b-4f3a-9fa9-01898fd0a811")
 	)
-	(label "USB_CC1"
+	(label "CC1"
 		(at 165.1 72.39 180)
 		(effects
 			(font
@@ -3118,7 +3138,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
-		(at 191.77 72.39 0)
+		(at 193.04 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3129,7 +3149,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
-		(at 191.77 74.93 0)
+		(at 193.04 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)

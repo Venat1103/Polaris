@@ -3684,7 +3684,7 @@
 		)
 		(uuid "fdbb9b71-db03-4feb-a047-76840809922e")
 	)
-	(label "PYRO_4"
+	(label "PYRO_C4"
 		(at 44.45 153.67 0)
 		(effects
 			(font
@@ -3694,7 +3694,7 @@
 		)
 		(uuid "3f15701a-4089-468e-8fab-b3be1f2cd14b")
 	)
-	(label "PYRO_2"
+	(label "PYRO_C2"
 		(at 44.45 143.51 0)
 		(effects
 			(font
@@ -3704,7 +3704,7 @@
 		)
 		(uuid "443378b2-b717-41b2-904a-f471cba609c4")
 	)
-	(label "PYRO_5"
+	(label "PYRO_C5"
 		(at 44.45 156.21 0)
 		(effects
 			(font
@@ -3714,7 +3714,7 @@
 		)
 		(uuid "4a14c561-6235-44b7-a525-68e5fe23ee9b")
 	)
-	(label "PYRO_5"
+	(label "PYRO_C5"
 		(at 236.22 96.52 180)
 		(effects
 			(font
@@ -3724,7 +3724,7 @@
 		)
 		(uuid "4d1edf2d-ea88-4779-ba05-69813f8b3883")
 	)
-	(label "PYRO_1"
+	(label "PYRO_C1"
 		(at 44.45 146.05 0)
 		(effects
 			(font
@@ -3734,7 +3734,7 @@
 		)
 		(uuid "4e3b54cc-bb8b-498d-9bf2-bd87bfa8a9c0")
 	)
-	(label "PYRO_3"
+	(label "PYRO_C3"
 		(at 44.45 151.13 0)
 		(effects
 			(font
@@ -3744,7 +3744,7 @@
 		)
 		(uuid "5a54f9f4-e005-4563-a766-b1f5939c5e19")
 	)
-	(label "PYRO_0"
+	(label "PYRO_C0"
 		(at 44.45 148.59 0)
 		(effects
 			(font
@@ -3754,7 +3754,7 @@
 		)
 		(uuid "5f4672e8-7b5c-4a09-a032-c0472ac2f036")
 	)
-	(label "PYRO_4"
+	(label "PYRO_C4"
 		(at 236.22 57.15 180)
 		(effects
 			(font
@@ -3764,7 +3764,7 @@
 		)
 		(uuid "88e748b3-7719-4109-bb28-1efebd327043")
 	)
-	(label "PYRO_2"
+	(label "PYRO_C2"
 		(at 171.45 57.15 180)
 		(effects
 			(font
@@ -3774,7 +3774,7 @@
 		)
 		(uuid "a8e58640-d723-4690-bc94-b58b4be9b80f")
 	)
-	(label "PYRO_3"
+	(label "PYRO_C3"
 		(at 171.45 96.52 180)
 		(effects
 			(font
@@ -3784,7 +3784,7 @@
 		)
 		(uuid "c0cc0453-6413-40f2-b680-5f86c5bfd1db")
 	)
-	(label "PYRO_0"
+	(label "PYRO_C0"
 		(at 104.14 58.42 180)
 		(effects
 			(font
@@ -3794,7 +3794,7 @@
 		)
 		(uuid "c8098e1e-eb69-4778-be70-a3aaff2ce059")
 	)
-	(label "PYRO_1"
+	(label "PYRO_C1"
 		(at 104.14 97.79 180)
 		(effects
 			(font

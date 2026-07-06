@@ -8,17 +8,16 @@ The whole system is powered by a single 2S Li-Po battery that can be charged via
 - Main Power Rail: 7.4-8.4V from battery or 9V from USB-C PD
 - Battery charger IC: Texas Instruments BQ24005
 - 5V regulator (switching): Texas Instruments LMR51430
-- 3.3V regulator (linear): Texas Instruments TLV75733
+- 3.3V regulator (switching): Texas Instruments LMR51430
 - 3.3V RF regulator (linear): Texas Instruments TPS7A2033
 - USB-PD negotiation: WCH CH224K
 
 Please note that the 9V from USB-C PD *cannot* power servos or pyrochannels. 9V USB-PD is capped to 3A of current, while the control electronics can easily consume 800 mA by itself.
 ## 2. Processing:
-The board is powered by an STM32F446VE from ST Microelectronics (NAV).
+The board is powered by an STM32F446VE from ST Microelectronics.
 This is a 180 MHz MCU based on the ARM Cortex-M4 with FPU.\
 It is, honestly, a lot more powerful than needed, but it was chosen because it is easier to develop for with the Nucleo-F446RE being widely available. The larger LQFP100 version was chosen due to larger number of GPIO pins exposed.
 ## 3. Sensors:
-All connected to NAV only
 - IMUs:
 	- Main IMU: TDK InvenSense ICM42688-P
 	- High-G Accelerometer: ST Microelectronics LSM6DSO32
@@ -41,7 +40,7 @@ I chose the Ra-01SH based on the Semtech SX1262 as the wireless radio.\
 I chose a flash chip to log to since it is actually soldered to the board and can survive much higher vibration environments.\
 I still opted to add a microSD slot for the flexibility.
 ## 5. Active Control:
-Active control is achieved through 6 servo lines controlled via PWM signals from NAV.\
+Active control is achieved through 6 servo lines controlled via PWM signals.\
 The board supports both thrust vector control and fin control. These lines can be split up in any which way.\
 The servos must be high-power and operate at up to 9V, since their power rail will be connected directly to the (up to) 8.4V of the battery.\
 I have planned feature of choosing between high-voltage (8.4V max) and 5V to power the servo, through maybe a solder pad or screw terminal.\
