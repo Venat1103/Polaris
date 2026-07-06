@@ -160,7 +160,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVE"
+		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -176,7 +176,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVE"
+			(property "Value" "W25Q128JVS"
 				(at 7.62 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -186,7 +186,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -208,7 +208,7 @@
 					)
 				)
 			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -230,7 +230,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*8x6mm*P1.27mm*"
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -241,7 +241,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVE_0_1"
+			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -254,7 +254,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVE_1_1"
+			(symbol "W25Q128JVS_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -392,24 +392,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -12.7 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -676,12 +658,6 @@
 		)
 	)
 	(junction
-		(at 144.78 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ca85878-9e86-41d6-a052-fa6bf699ccb4")
-	)
-	(junction
 		(at 144.78 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -746,16 +722,6 @@
 			(type default)
 		)
 		(uuid "58e83314-7524-4622-9aa5-9044c1646f6a")
-	)
-	(wire
-		(pts
-			(xy 142.24 120.65) (xy 144.78 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b569eb5a-969c-451d-bc75-b459beff70ea")
 	)
 	(wire
 		(pts
@@ -1180,7 +1146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVE")
+		(lib_id "Memory_Flash:W25Q128JVS")
 		(at 144.78 107.95 0)
 		(mirror y)
 		(unit 1)
@@ -1190,9 +1156,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "679cc565-bb44-4230-b744-535dc40223df")
+		(fields_autoplaced yes)
+		(uuid "7cc5f422-703f-4a49-bd38-9aa65d22f791")
 		(property "Reference" "U1201"
-			(at 132.842 106.6799 0)
+			(at 133.35 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1202,8 +1169,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVE"
-			(at 132.842 109.2199 0)
+		(property "Value" "W25Q128JVS"
+			(at 133.35 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1213,7 +1180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 144.78 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1235,7 +1202,7 @@
 				)
 			)
 		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 144.78 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1246,131 +1213,29 @@
 				)
 			)
 		)
-		(property "Description_1" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c6d2b2b-babb-44d8-88fc-4bd01c8c61ff")
-		)
-		(pin "4"
-			(uuid "7b96941d-ffdd-47b7-933d-64257450f999")
-		)
-		(pin "6"
-			(uuid "71610c02-9b02-4528-bb5d-27110db9df11")
-		)
-		(pin "8"
-			(uuid "1a0e31ac-28ad-46fd-b409-1751c865c91f")
-		)
-		(pin "7"
-			(uuid "444fe83b-c27c-4840-a1d1-2fb0bc86ad35")
-		)
-		(pin "9"
-			(uuid "1039ada5-eb4b-4b1e-a272-24878cd082a9")
+		(pin "3"
+			(uuid "87e51eee-aa9f-49de-a37b-6fedf06225a4")
 		)
 		(pin "2"
-			(uuid "8a75535d-439e-4380-b1fe-61148a70e9e3")
+			(uuid "abebb560-206b-46c5-9d1e-e6812d087f56")
 		)
-		(pin "3"
-			(uuid "3ad49bb6-59e4-4fee-b8be-14f8bb16d2a6")
+		(pin "1"
+			(uuid "d1453bec-49aa-4369-9bfa-77e21c05f2a2")
+		)
+		(pin "7"
+			(uuid "ea625a77-18ab-40bc-814a-166217017351")
+		)
+		(pin "6"
+			(uuid "b63188a2-1e7e-4f8b-b11d-02c310281563")
+		)
+		(pin "4"
+			(uuid "93f11b19-d078-49c0-bedb-6874135ebb64")
+		)
+		(pin "8"
+			(uuid "21ded8e4-d5df-47e5-b79f-d93aa61045a0")
 		)
 		(pin "5"
-			(uuid "62547dd9-c5f3-41b1-8c17-a8fb30cb5aea")
+			(uuid "e9baf300-c069-4b88-a667-974e966706bf")
 		)
 		(instances
 			(project "polaris"

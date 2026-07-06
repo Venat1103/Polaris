@@ -2903,7 +2903,7 @@
 		)
 		(uuid "fa20b08d-9f99-4eb7-8de5-511612f63ab3")
 	)
-	(label "USB_D+_"
+	(label "USB_D+"
 		(at 187.96 74.93 0)
 		(effects
 			(font
@@ -2924,7 +2924,7 @@
 		(uuid "0e2ba874-c85f-4ec3-969b-2babb011b85b")
 	)
 	(label "CONN_CC2"
-		(at 135.89 74.93 0)
+		(at 135.89 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2957,7 +2957,7 @@
 		)
 	)
 	(label "CC2"
-		(at 165.1 74.93 180)
+		(at 165.1 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,7 +3053,7 @@
 		)
 	)
 	(label "CONN_CC1"
-		(at 135.89 72.39 0)
+		(at 135.89 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3116,7 +3116,7 @@
 		(uuid "f0fd1e15-ee9b-4f3a-9fa9-01898fd0a811")
 	)
 	(label "CC1"
-		(at 165.1 72.39 180)
+		(at 165.1 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)

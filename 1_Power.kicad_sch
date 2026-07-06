@@ -2764,6 +2764,18 @@
 		)
 		(uuid "e5b985ed-f5cb-4269-8cd3-c2108331d976")
 	)
+	(text "Output inductor calculations:\nLmin = (Vin_max - Vout) * Vout / Iout * K * Vin_max * f\nVin_max = 5.5V, Vout = 3.3V, Iout = 1.5A, K = 0.3, f = 500kHz\nLmin = ~5.9 uH. Choose nearest available 10 uH"
+		(exclude_from_sim no)
+		(at 193.04 149.86 0)
+		(effects
+			(font
+				(face "Segoe UI Symbol")
+				(size 0.8 0.8)
+			)
+			(justify left top)
+		)
+		(uuid "1b6cdb18-d5d6-4fa9-a79b-1ffb57e9dd11")
+	)
 	(text "5V Switching Rail"
 		(exclude_from_sim no)
 		(at 264.16 100.33 0)
@@ -2841,7 +2853,7 @@
 		)
 		(uuid "9394082e-cb67-4d49-82c0-ad3f6c6acc5a")
 	)
-	(text "Comparator voltage at FB = 0.6V typ.\nChoose R1 = 162k, R2 = 22.1k so that\nVfb = 0.6V when Vout = 5V"
+	(text "Comparator voltage at FB = 0.6V typ.\nChoose R1 = 100k, R2 = 22.1k so that\nVfb = 0.6V when Vout = 3.3V"
 		(exclude_from_sim no)
 		(at 248.92 132.08 0)
 		(effects
@@ -2863,7 +2875,7 @@
 		)
 		(uuid "c8bc0866-c2ac-4b89-b2f1-a184b06f95c2")
 	)
-	(text "Please remember to keep the buck converter \nfar from the USB-C receptacle to reduce EMI"
+	(text "Please remember to keep the buck converters\nfar from the USB-C receptacle to reduce EMI"
 		(exclude_from_sim no)
 		(at 251.46 50.8 0)
 		(effects
@@ -2872,6 +2884,18 @@
 			)
 		)
 		(uuid "e2ea397b-225b-4442-960d-e8f2f7e7e3b9")
+	)
+	(text "Output capacitor calculations:\nΔVout_esr = K * Iout * ESR = 30 mV max\n⇒ ESR = 0.067 Ω max\n\nΔVout_c = K * Iout / 8 * f * Cout = 30 mV max\n⇒ Cout = 3.75 uF\n\nCout > 4 * (Ioh - Iol) / f * ΔVout_shoot\nUsing Ioh = 1.7A, Iol = 1.3A, ΔVout_shoot = 250 mV:\nCout > 12.8 uF\nUsing Cout > 12.8 uF at 50 mΩ ESR: Choose Cout = 2 x 10 uF + 1 x 100 nF = 20.1 uF"
+		(exclude_from_sim no)
+		(at 224.79 149.86 0)
+		(effects
+			(font
+				(face "Segoe UI Symbol")
+				(size 0.8 0.8)
+			)
+			(justify left top)
+		)
+		(uuid "eacbbd9d-2bfc-436d-a5db-8ec9b058d2f4")
 	)
 	(junction
 		(at 252.73 111.76)
@@ -2934,16 +2958,16 @@
 		(uuid "2bc84b2c-80da-427d-9938-6a7afb0d00c1")
 	)
 	(junction
-		(at 262.89 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e049adf-87fa-4ba3-87d3-3d73800454bf")
-	)
-	(junction
 		(at 50.8 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f6f57e4-3712-4fad-99b3-c08eaf59c90b")
+	)
+	(junction
+		(at 262.89 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "314e6470-0337-421b-a7d8-d31ceaaa0d41")
 	)
 	(junction
 		(at 210.82 68.58)
@@ -2968,6 +2992,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "401ef680-7856-4f3e-bf80-f0c7b0eff893")
+	)
+	(junction
+		(at 262.89 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "464df125-f9c2-4f05-b620-893610e5c6d0")
 	)
 	(junction
 		(at 172.72 74.93)
@@ -3010,12 +3040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b7e65f9-8369-48f5-872a-df5ebbddc6b5")
-	)
-	(junction
-		(at 262.89 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c5319ad-1398-4196-a4f6-7dbf06194ca1")
 	)
 	(junction
 		(at 252.73 63.5)
@@ -3142,16 +3166,6 @@
 			(type default)
 		)
 		(uuid "083e1b64-c6bb-42eb-9279-a0ac51c4267c")
-	)
-	(wire
-		(pts
-			(xy 255.27 134.62) (xy 262.89 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08b4bedf-f7a0-4498-bfd1-fec3cbe2d652")
 	)
 	(wire
 		(pts
@@ -3302,6 +3316,16 @@
 			(type default)
 		)
 		(uuid "31ec2b0b-958a-41c8-966e-3c9fd3e8f253")
+	)
+	(wire
+		(pts
+			(xy 255.27 127) (xy 262.89 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35051470-97bc-40e0-b204-98d3648a7b6f")
 	)
 	(wire
 		(pts
@@ -3485,6 +3509,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 134.62) (xy 270.51 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607e438d-4fd9-4725-9836-a93a8801eb46")
+	)
+	(wire
+		(pts
 			(xy 220.98 127) (xy 252.73 127)
 		)
 		(stroke
@@ -3552,16 +3586,6 @@
 			(type default)
 		)
 		(uuid "74b02b5d-ecb8-4e01-9085-7bf44d78e3dd")
-	)
-	(wire
-		(pts
-			(xy 262.89 134.62) (xy 270.51 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77592eba-2b2a-46a7-9966-664e2462e31b")
 	)
 	(wire
 		(pts
@@ -3675,13 +3699,13 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 127) (xy 270.51 127)
+			(xy 255.27 134.62) (xy 262.89 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dc8ae40-8538-4a5c-acc2-7a1c8f871758")
+		(uuid "8d907623-cc23-42e6-811e-71f7ce330b7d")
 	)
 	(wire
 		(pts
@@ -3712,16 +3736,6 @@
 			(type default)
 		)
 		(uuid "90d34f62-a99b-4865-a4dc-7a45d20c9dd9")
-	)
-	(wire
-		(pts
-			(xy 255.27 127) (xy 262.89 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91586fde-94f2-479c-8a15-092aab73486c")
 	)
 	(wire
 		(pts
@@ -3842,6 +3856,16 @@
 			(type default)
 		)
 		(uuid "a4250307-d694-4bf8-988a-0fbed3f18477")
+	)
+	(wire
+		(pts
+			(xy 262.89 127) (xy 270.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa48be9-f715-477b-8f94-90ceb2ee1dbe")
 	)
 	(wire
 		(pts
@@ -4213,7 +4237,7 @@
 		)
 		(uuid "2e002331-6f9b-486a-8374-61fba31e5fb4")
 	)
-	(label "C_BOOT"
+	(label "5V_CBOOT"
 		(at 232.41 63.5 0)
 		(effects
 			(font
@@ -4223,7 +4247,7 @@
 		)
 		(uuid "5e30fa02-bb09-4de6-ae54-b13359198a53")
 	)
-	(label "FB"
+	(label "3V3_FB"
 		(at 232.41 121.92 0)
 		(effects
 			(font
@@ -4233,7 +4257,7 @@
 		)
 		(uuid "7f3a83ef-6b59-4ecc-a054-da1509937360")
 	)
-	(label "REG_SW"
+	(label "3V3_SW"
 		(at 231.14 119.38 0)
 		(effects
 			(font
@@ -4263,7 +4287,7 @@
 		)
 		(uuid "b863b701-2176-4162-ae9d-4f555b574de7")
 	)
-	(label "C_BOOT"
+	(label "3V3_CBOOT"
 		(at 232.41 111.76 0)
 		(effects
 			(font
@@ -4293,7 +4317,7 @@
 		)
 		(uuid "dc94949a-a24f-41a3-8f1a-66630294d3df")
 	)
-	(label "FB"
+	(label "5V_FB"
 		(at 232.41 73.66 0)
 		(effects
 			(font
@@ -4323,7 +4347,7 @@
 		)
 		(uuid "f53c9bd7-d9f1-45c7-95d4-d073d5561b2c")
 	)
-	(label "REG_SW"
+	(label "5V_SW"
 		(at 231.14 71.12 0)
 		(effects
 			(font
@@ -4332,30 +4356,6 @@
 			(justify left bottom)
 		)
 		(uuid "f830f9c0-b7a0-4b29-8055-959521b6725c")
-	)
-	(global_label "POWER"
-		(shape input)
-		(at 201.93 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d5634ee-9dad-4972-81b5-1d3c308f85d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4739 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "POWER"
 		(shape output)
@@ -5972,7 +5972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3u3"
+		(property "Value" "4u7"
 			(at 198.12 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7032,28 +7032,26 @@
 		(dnp no)
 		(uuid "4ae550bd-fc6c-4673-8430-5e6f450b9459")
 		(property "Reference" "C219"
-			(at 260.35 142.24 0)
+			(at 262.89 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 260.35 144.78 0)
+		(property "Value" "100n"
+			(at 262.89 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 263.8552 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7195,186 +7193,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0"
 					(reference "C219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 270.51 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53d8ef4b-19c1-49f7-a910-5db5d0500e8f")
-		(property "Reference" "C220"
-			(at 267.97 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 267.97 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 271.4752 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 270.51 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86505027-fac1-4f4e-8a6b-1f28361ec388")
-		)
-		(pin "2"
-			(uuid "959bc586-ed44-434f-b3ac-d3e3273f01bf")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0"
-					(reference "C220")
 					(unit 1)
 				)
 			)
@@ -11171,8 +10989,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 255.27 130.81 0)
+		(lib_id "power:+5V")
+		(at 201.93 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11180,31 +10998,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b2a07249-c990-41f3-8182-3d05ba26fdee")
-		(property "Reference" "C218"
-			(at 252.73 142.24 0)
+		(uuid "b44822a9-bf57-4b6e-b372-45e447497d7e")
+		(property "Reference" "#PWR0217"
+			(at 201.93 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 252.73 144.78 0)
+		(property "Value" "+5V"
+			(at 201.93 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 256.2352 134.62 0)
+		(property "Footprint" ""
+			(at 201.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11215,7 +11032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 130.81 0)
+			(at 201.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11225,107 +11042,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 255.27 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 255.27 130.81 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11336,15 +11054,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f39b6134-2673-41d1-9963-56b8111d6885")
-		)
-		(pin "2"
-			(uuid "e21a623d-00ef-44ea-bebc-2d5063fe94ee")
+			(uuid "0d2565a8-e02b-4569-9c65-78dba012fb71")
 		)
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0"
-					(reference "C218")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -11550,7 +11265,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "10u"
 			(at 246.126 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12040,6 +11755,184 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0"
 					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6cc37ef-76b2-4195-884a-fa8c23ee005a")
+		(property "Reference" "C218"
+			(at 270.51 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 270.51 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 271.4752 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 270.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3586b1e3-2b2a-4bb4-a8dd-49371c375d31")
+		)
+		(pin "1"
+			(uuid "6eaa77c0-0d0f-42e7-a75f-f5256cc3e9a2")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0"
+					(reference "C218")
 					(unit 1)
 				)
 			)
@@ -13174,6 +13067,184 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0"
 					(reference "C217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 255.27 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f45a0119-c8c7-480d-acfe-1328e22d866d")
+		(property "Reference" "C211"
+			(at 255.27 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 255.27 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 256.2352 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 255.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90f03db8-f4c3-42c5-b8cf-3eef5bd294e6")
+		)
+		(pin "1"
+			(uuid "85ef10ae-2a96-4b19-af62-03b5e769e438")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/b893ad8b-122d-4b5c-938b-e0c5a48ccff0"
+					(reference "C211")
 					(unit 1)
 				)
 			)

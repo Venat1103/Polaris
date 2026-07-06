@@ -210,7 +210,13 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.6,
+        1.0,
+        1.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -567,7 +573,7 @@
       },
       {
         "name": "MCU_PWR",
-        "pcb_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgb(64, 0, 255)",
         "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": ""
@@ -1016,7 +1022,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "L202,#PWR211,#PWR213,#PWR215-216,#PWR402,#PWR422-423,R208-209,#FLG202,C208,C211,C213,C216,C218-220,U204,FB401-402",
+    "used_designators": "R101",
     "variants": []
   },
   "sheets": [

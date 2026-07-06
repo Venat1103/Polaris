@@ -4701,7 +4701,7 @@
 		)
 		(uuid "e8fd1df8-b5a6-4932-820d-cec7a5f7b33b")
 	)
-	(text "9 pF \nload capacitance"
+	(text "12 pF \nload capacitance"
 		(exclude_from_sim no)
 		(at 60.96 184.15 0)
 		(effects
@@ -4907,12 +4907,6 @@
 		(uuid "696056fd-09a7-45c1-9157-fbd6cd01a9e4")
 	)
 	(junction
-		(at 166.37 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71629505-8fbc-418b-903f-f9bf4e6c1311")
-	)
-	(junction
 		(at 179.07 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4929,6 +4923,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7464e075-1820-46c1-8809-e6ae1763484c")
+	)
+	(junction
+		(at 162.56 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76cb24ee-7491-478e-85be-74060344efee")
 	)
 	(junction
 		(at 107.95 185.42)
@@ -5109,16 +5109,6 @@
 			(type default)
 		)
 		(uuid "058e951e-137d-4972-acaf-582cad82da91")
-	)
-	(wire
-		(pts
-			(xy 161.29 36.83) (xy 166.37 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a6a31a-2a8c-4459-9d0a-c3cf432f66a4")
 	)
 	(wire
 		(pts
@@ -5992,6 +5982,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 36.83) (xy 163.83 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9236e94e-fbc0-4921-82e2-abc7f640460d")
+	)
+	(wire
+		(pts
 			(xy 173.99 96.52) (xy 165.1 96.52)
 		)
 		(stroke
@@ -6122,6 +6122,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 36.83) (xy 177.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c93f45-35fb-4fb0-b7e9-439c25e65047")
+	)
+	(wire
+		(pts
 			(xy 62.23 115.57) (xy 48.26 115.57)
 		)
 		(stroke
@@ -6219,6 +6229,16 @@
 			(type default)
 		)
 		(uuid "b27d7441-0c0b-46eb-93fc-d8a484b1bd00")
+	)
+	(wire
+		(pts
+			(xy 153.67 36.83) (xy 162.56 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43c0d73-c087-4001-9f50-1af4ddd4d135")
 	)
 	(wire
 		(pts
@@ -6512,16 +6532,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 36.83) (xy 177.8 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b99caa-7d0d-4c21-9f6e-202058fe8bea")
-	)
-	(wire
-		(pts
 			(xy 165.1 132.08) (xy 173.99 132.08)
 		)
 		(stroke
@@ -6602,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 71.12) (xy 106.68 71.12)
+			(xy 105.41 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6781,7 +6791,7 @@
 		(uuid "18f1781c-322a-40f3-83e8-f5680f506e1b")
 	)
 	(label "OSC_OUT"
-		(at 97.79 71.12 0)
+		(at 105.41 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10114,7 +10124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 44.45 0)
+		(at 162.56 44.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10126,7 +10136,7 @@
 		(fields_autoplaced yes)
 		(uuid "46d715bd-985b-46c4-a1cc-ee4c0291c6c3")
 		(property "Reference" "#PWR0423"
-			(at 166.37 50.8 0)
+			(at 162.56 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10147,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 49.022 0)
+			(at 162.56 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10147,7 +10157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 44.45 0)
+			(at 162.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10158,7 +10168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 44.45 0)
+			(at 162.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10169,7 +10179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 44.45 0)
+			(at 162.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +10955,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 157.48 36.83 90)
+		(at 167.64 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10956,7 +10966,7 @@
 		(fields_autoplaced yes)
 		(uuid "7784a0a1-1e67-458a-ac18-4f6b43ede632")
 		(property "Reference" "FB402"
-			(at 157.4292 29.21 90)
+			(at 167.5892 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10966,7 +10976,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 157.4292 31.75 90)
+			(at 167.5892 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10976,7 +10986,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 157.48 38.608 90)
+			(at 167.64 38.608 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10987,7 +10997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 36.83 0)
+			(at 167.64 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +11008,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 157.48 36.83 0)
+			(at 167.64 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11760,7 +11770,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 40.64 0)
+		(at 162.56 40.64 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11771,7 +11781,7 @@
 		(dnp no)
 		(uuid "8655af64-4907-4880-acfb-74455f493f09")
 		(property "Reference" "C416"
-			(at 164.084 39.37 0)
+			(at 160.274 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11782,7 +11792,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 164.084 41.91 0)
+			(at 160.274 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11793,7 +11803,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 165.4048 44.45 0)
+			(at 161.5948 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11804,7 +11814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11815,7 +11825,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11826,7 +11836,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11837,7 +11847,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11848,7 +11858,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11859,7 +11869,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11870,7 +11880,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11881,7 +11891,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11892,7 +11902,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11903,7 +11913,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11914,7 +11924,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 166.37 40.64 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12265,7 +12275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "20p"
 			(at 41.91 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13360,7 +13370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "20p"
 			(at 17.78 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14084,184 +14094,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
 					(reference "C415")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "ccda092c-ce09-4901-825f-d60334ef3231")
-		(property "Reference" "R403"
-			(at 110.49 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 110.49 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 110.49 72.898 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 110.49 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cd4b76c8-ae1c-413a-9f02-6bff985b1f7e")
-		)
-		(pin "1"
-			(uuid "1e4d4386-dc1b-45e7-b66d-65fdfa3dbca4")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
-					(reference "R403")
 					(unit 1)
 				)
 			)
