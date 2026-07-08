@@ -8,222 +8,6 @@
 		(title "Polaris/NAV")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -4678,18 +4462,6 @@
 		(uuid "6971cc51-a0e4-49e9-a2fe-f447cb620172")
 	)
 	(rectangle
-		(start 15.24 73.66)
-		(end 48.26 97.79)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "99d0019a-f640-455d-8809-f3a883e245df")
-	)
-	(rectangle
 		(start 204.47 40.64)
 		(end 279.4 69.85)
 		(stroke
@@ -4711,27 +4483,6 @@
 			(justify right)
 		)
 		(uuid "0e4a219b-5f75-43bc-8274-75c92259aa50")
-	)
-	(text "GNSS Module"
-		(exclude_from_sim no)
-		(at 40.64 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1fd81d41-f875-459d-919e-703f77b85ccd")
-	)
-	(text "67 mA"
-		(exclude_from_sim no)
-		(at 20.32 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "2260bc73-76c1-449f-aaee-d8e7ce535fc1")
 	)
 	(text "[3] NAV"
 		(exclude_from_sim no)
@@ -4943,6 +4694,12 @@
 		(uuid "80b09210-05a5-41e0-afba-4d7bf141e923")
 	)
 	(junction
+		(at 209.55 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84ac5fd3-9e7e-4019-a457-415c4ff7bff4")
+	)
+	(junction
 		(at 251.46 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5007,10 +4764,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9bf9181-6dd7-46b7-920e-b1fb1f18861a")
-	)
-	(no_connect
-		(at 165.1 91.44)
-		(uuid "0a9a902d-dbe2-4689-9349-d66622e0bd71")
 	)
 	(no_connect
 		(at 114.3 101.6)
@@ -5209,16 +4962,6 @@
 			(type default)
 		)
 		(uuid "1611ab9d-73c5-4818-94e2-e693e057bf67")
-	)
-	(wire
-		(pts
-			(xy 26.67 81.28) (xy 35.56 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a4a044-39ed-4bd2-8f4e-b223505e3d3a")
 	)
 	(wire
 		(pts
@@ -5842,16 +5585,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 83.82) (xy 35.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826e0e9b-e36e-40dc-b91a-f247446d65e6")
-	)
-	(wire
-		(pts
 			(xy 99.06 45.72) (xy 110.49 45.72)
 		)
 		(stroke
@@ -6029,16 +5762,6 @@
 			(type default)
 		)
 		(uuid "97b3fa84-e968-419b-b6d6-4d079997e32c")
-	)
-	(wire
-		(pts
-			(xy 26.67 88.9) (xy 35.56 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98712d9e-cac6-4ca8-a124-206ade6aa801")
 	)
 	(wire
 		(pts
@@ -6472,16 +6195,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 86.36) (xy 35.56 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bcad78-125f-455d-b4db-b279abe92ee0")
-	)
-	(wire
-		(pts
 			(xy 147.32 39.37) (xy 147.32 43.18)
 		)
 		(stroke
@@ -6499,6 +6212,16 @@
 			(type default)
 		)
 		(uuid "dac13de8-ddaf-4f82-b2b9-6abe0cb62def")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 209.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb2e832-ae26-4f18-831b-b74f809afb0a")
 	)
 	(wire
 		(pts
@@ -6720,6 +6443,16 @@
 		)
 		(uuid "03d94499-30bc-4b05-a589-e34cfd7343f9")
 	)
+	(label "VBUS_DETECT"
+		(at 168.91 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11694cf4-2e5c-4aad-accc-a26161e99cdf")
+	)
 	(label "SD_DAT3"
 		(at 173.99 165.1 180)
 		(effects
@@ -6890,16 +6623,6 @@
 		)
 		(uuid "3c31a993-7d50-49e1-b5b9-6c28f8c588cd")
 	)
-	(label "GPS_RX"
-		(at 172.72 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "423288a2-7b61-443f-8de0-2273a6893160")
-	)
 	(label "NAV_STAT4"
 		(at 95.25 129.54 0)
 		(effects
@@ -6999,16 +6722,6 @@
 			(justify left bottom)
 		)
 		(uuid "6a657c52-cd4e-46d1-bdbc-25168114c740")
-	)
-	(label "GPS_RX"
-		(at 35.56 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6cca0898-f47e-4d4a-b09b-867242da9411")
 	)
 	(label "LSM_MOSI"
 		(at 236.22 147.32 0)
@@ -7240,16 +6953,6 @@
 		)
 		(uuid "b2cfa4be-6ab3-493c-83ab-2c12d0cfbc99")
 	)
-	(label "GPS_TX"
-		(at 172.72 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7ad2513-eb19-492f-94ec-2d8e25de358f")
-	)
 	(label "ICM_MOSI"
 		(at 186.69 146.05 0)
 		(effects
@@ -7259,16 +6962,6 @@
 			(justify left bottom)
 		)
 		(uuid "be4ab937-361c-4734-9c07-fde794c9f790")
-	)
-	(label "GPS_TX"
-		(at 35.56 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6fcd45c-2ee2-44d3-8e93-a9cc2a5a726d")
 	)
 	(label "LPS_SDA"
 		(at 173.99 160.02 180)
@@ -7442,6 +7135,28 @@
 		)
 		(uuid "16c5c904-3a8e-4b21-acf8-1a1218688049")
 	)
+	(hierarchical_label "GNSS_RX"
+		(shape output)
+		(at 172.72 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bea74b3-b548-48cd-a690-3e2e1b12c653")
+	)
+	(hierarchical_label "USB_VCC"
+		(shape input)
+		(at 209.55 83.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c2428dc-ce80-4315-b5b5-919836e5a4a8")
+	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 175.26 81.28 0)
@@ -7496,6 +7211,17 @@
 			(justify right)
 		)
 		(uuid "352a9f3e-cf71-4766-8e0f-97a106f6dbe9")
+	)
+	(hierarchical_label "GNSS_TX"
+		(shape input)
+		(at 172.72 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "358805b9-4ac5-4a78-9db5-216a630ba2aa")
 	)
 	(hierarchical_label "PYRO_5"
 		(shape output)
@@ -7878,8 +7604,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 21.59 86.36 180)
+		(lib_id "Device:R")
+		(at 209.55 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7887,29 +7613,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "012237b0-477f-4e67-993c-725adf248061")
-		(property "Reference" "J401"
-			(at 21.59 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "0ed6d6d8-066e-4c9b-9178-ee3d1aff05ae")
+		(property "Reference" "R403"
+			(at 212.09 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNSS"
-			(at 21.59 78.74 0)
+		(property "Value" "100k"
+			(at 212.09 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 21.59 86.36 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.772 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7920,7 +7649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 86.36 0)
+			(at 209.55 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,8 +7659,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 21.59 86.36 0)
+		(property "Description" "Resistor"
+			(at 209.55 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,21 +7671,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eeebb351-f500-43ad-afc1-f211d436fa64")
-		)
-		(pin "3"
-			(uuid "fa90aa0e-e78f-45d3-a1cf-400ba92147a2")
+			(uuid "e8abe24a-b974-41d1-b0f3-92cc15aa0b65")
 		)
 		(pin "2"
-			(uuid "9191ab34-154d-4da0-a7ef-adc2119b4afb")
-		)
-		(pin "4"
-			(uuid "6eb47d77-376b-4a71-9333-408c8d33f914")
+			(uuid "66d0b88b-be28-4b64-8ff5-0908bb5a09f9")
 		)
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
-					(reference "J401")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -8292,6 +8015,84 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
 					(reference "#PWR0413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17c33ea5-407c-4d7c-b83a-de6adf51eb2a")
+		(property "Reference" "#PWR0424"
+			(at 209.55 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "842e3308-74d4-4121-b798-2360736198e7")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -8853,84 +8654,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
 					(reference "R405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28a49d50-2fdb-4dd7-98d1-6d26642fceca")
-		(property "Reference" "#PWR0402"
-			(at 35.56 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 35.56 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2250c57-aad0-416a-ac75-3418f691c885")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
-					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -10491,6 +10214,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 209.55 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e692ebd-37e2-4465-8f90-1f6c989bdc39")
+		(property "Reference" "R410"
+			(at 212.09 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k1"
+			(at 212.09 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.772 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e85e0da-c66f-47b5-816a-d4d1272f7df9")
+		)
+		(pin "1"
+			(uuid "adadc91e-bef1-42c9-b7e7-1a604599c21c")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
+					(reference "R410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 257.81 48.26 90)
 		(unit 1)
 		(body_style 1)
@@ -10806,7 +10611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.3348 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11700,6 +11505,7 @@
 		)
 		(pin "68"
 			(uuid "3926549b-eeeb-4da9-a746-cda85e700486")
+			(alternate "USB_OTG_FS_VBUS")
 		)
 		(pin "80"
 			(uuid "f6cfe19d-ab5f-4e7a-98bd-f3e836e10733")
@@ -13131,84 +12937,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
 					(reference "C404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aac15ab1-02fd-4771-88e3-dcc0820edbb9")
-		(property "Reference" "#PWR0403"
-			(at 35.56 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 93.472 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f2a9bff-7e81-4140-b702-e5a965d30da1")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0/2c635aac-d26f-4bb6-b325-c281bd24fb50"
-					(reference "#PWR0403")
 					(unit 1)
 				)
 			)

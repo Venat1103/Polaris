@@ -2255,6 +2255,12 @@
 		(uuid "e8545079-d5a4-4d86-86e9-bb26cc2cfaab")
 	)
 	(junction
+		(at 158.75 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d0a68c8-e1f8-49a5-822a-1730921e11b9")
+	)
+	(junction
 		(at 213.36 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2273,16 +2279,40 @@
 		(uuid "395562af-df93-48fc-894c-070572b6d467")
 	)
 	(junction
+		(at 147.32 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "469c2a3a-3669-4930-a6e3-b9a0b1c3973f")
+	)
+	(junction
 		(at 213.36 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a617b8e5-1779-45da-9263-41b3da250ecc")
 	)
 	(junction
+		(at 86.36 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2108979-e7fc-4d3f-bccb-605f93eeb4e0")
+	)
+	(junction
 		(at 213.36 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b458becd-d441-4986-b284-553e05e3dbcc")
+	)
+	(junction
+		(at 151.13 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b468574e-6ba0-48eb-8e97-f9480bd90d5e")
+	)
+	(junction
+		(at 139.7 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6b7c2d2-479c-46c8-8a7f-640eb988ad0e")
 	)
 	(junction
 		(at 33.02 26.67)
@@ -2302,6 +2332,66 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 45.72) (xy 162.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a264253-4e48-4310-8e42-1c9053250982")
+	)
+	(wire
+		(pts
+			(xy 40.64 93.98) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2e00f2-5f29-4c81-a8df-031cd38cbf48")
+	)
+	(wire
+		(pts
+			(xy 40.64 91.44) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db1739b-ad58-4a43-9a77-4209d1950a02")
+	)
+	(wire
+		(pts
+			(xy 167.64 34.29) (xy 167.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0c0bb9-6a97-435f-b8be-bdcf65b36bfa")
+	)
+	(wire
+		(pts
+			(xy 40.64 58.42) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f33b54b-a033-428a-9c44-47346f0d841e")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 153.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113cdd94-ab09-4a00-8a22-84d7434eda4e")
+	)
+	(wire
+		(pts
 			(xy 176.53 82.55) (xy 176.53 38.1)
 		)
 		(stroke
@@ -2312,13 +2402,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 40.64) (xy 156.21 40.64)
+			(xy 139.7 45.72) (xy 151.13 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16a2a234-81c8-4572-86dd-477c7dea29be")
+		(uuid "160ec553-ab98-403c-9c99-92c64b06bf8d")
 	)
 	(wire
 		(pts
@@ -2392,6 +2482,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 34.29) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba985cf-74d0-40a8-94c8-7aeaf7b2e063")
+	)
+	(wire
+		(pts
 			(xy 144.78 115.57) (xy 144.78 127)
 		)
 		(stroke
@@ -2422,13 +2522,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 34.29) (xy 82.55 40.64)
+			(xy 165.1 34.29) (xy 165.1 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33566cbd-1e76-4d7d-84f2-7e3e013f1ab2")
+		(uuid "359739c7-6ff7-479c-b826-f7b3b80858f4")
+	)
+	(wire
+		(pts
+			(xy 147.32 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e16aca-40b6-40dc-9b16-b31c669f7eef")
 	)
 	(wire
 		(pts
@@ -2439,16 +2549,6 @@
 			(type default)
 		)
 		(uuid "37d087dd-736d-494e-8838-bb5eec771ec5")
-	)
-	(wire
-		(pts
-			(xy 82.55 40.64) (xy 78.74 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39128d8e-2451-49c2-9f56-d26e0340be0f")
 	)
 	(wire
 		(pts
@@ -2489,16 +2589,6 @@
 			(type default)
 		)
 		(uuid "3f35bab3-05cc-4765-ac4d-e39d01bb29dd")
-	)
-	(wire
-		(pts
-			(xy 167.64 34.29) (xy 167.64 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41c82130-7caa-4494-a594-0be2716e7cce")
 	)
 	(wire
 		(pts
@@ -2562,16 +2652,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 34.29) (xy 160.02 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56efd0d8-2490-4a9e-8f32-1afd84c2fbe3")
-	)
-	(wire
-		(pts
 			(xy 120.65 34.29) (xy 120.65 54.61)
 		)
 		(stroke
@@ -2602,6 +2682,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a1a858-5036-4816-9cd8-2696ead2023d")
+	)
+	(wire
+		(pts
 			(xy 213.36 40.64) (xy 257.81 40.64)
 		)
 		(stroke
@@ -2622,16 +2712,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 34.29) (xy 165.1 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae0ffc7-b9d3-44d5-b8a3-11fd4bdaf32b")
-	)
-	(wire
-		(pts
 			(xy 130.81 34.29) (xy 130.81 54.61)
 		)
 		(stroke
@@ -2639,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "6ae24614-f849-452f-bf6d-f4c1e161de63")
+	)
+	(wire
+		(pts
+			(xy 151.13 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5dca1f-e417-4d37-9b83-7b160621f185")
 	)
 	(wire
 		(pts
@@ -2652,7 +2742,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 76.2) (xy 86.36 91.44)
+			(xy 100.33 43.18) (xy 147.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eebfdc7-c186-4d48-b754-525afa2c2919")
+	)
+	(wire
+		(pts
+			(xy 86.36 76.2) (xy 86.36 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2712,6 +2812,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 77.47) (xy 46.99 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9249f9-df48-4046-8337-4480105ff091")
+	)
+	(wire
+		(pts
 			(xy 213.36 83.82) (xy 257.81 83.82)
 		)
 		(stroke
@@ -2742,23 +2852,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 34.29) (xy 85.09 40.64)
+			(xy 139.7 34.29) (xy 139.7 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b9bb1df-fcaf-4961-bbcd-ed4b66516a85")
-	)
-	(wire
-		(pts
-			(xy 143.51 34.29) (xy 143.51 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e4ebe74-66b1-4359-a169-0b333a1e87a4")
+		(uuid "8f7e3c4e-357a-4295-8af1-07cf734661e2")
 	)
 	(wire
 		(pts
@@ -2772,7 +2872,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 34.29) (xy 146.05 54.61)
+			(xy 40.64 74.93) (xy 46.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9661d200-4999-445a-8eaa-b812837907d7")
+	)
+	(wire
+		(pts
+			(xy 142.24 34.29) (xy 142.24 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2792,6 +2902,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 43.18) (xy 158.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd96242-e3d8-45d3-9d11-41c0ef28d2a5")
+	)
+	(wire
+		(pts
 			(xy 142.24 115.57) (xy 142.24 127)
 		)
 		(stroke
@@ -2802,7 +2922,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 34.29) (xy 148.59 54.61)
+			(xy 144.78 34.29) (xy 144.78 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2842,13 +2962,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 40.64) (xy 154.94 40.64)
+			(xy 86.36 83.82) (xy 110.49 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aed7ebb0-a582-430c-9b5b-c33416f45896")
+		(uuid "b4708a1d-507d-4938-92b8-c3da791c5e35")
 	)
 	(wire
 		(pts
@@ -2879,6 +2999,16 @@
 			(type default)
 		)
 		(uuid "b70ecfce-d0c7-41a5-a686-f30540f46838")
+	)
+	(wire
+		(pts
+			(xy 170.18 34.29) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c2bd47-d833-4c16-a380-3b5b37541aa0")
 	)
 	(wire
 		(pts
@@ -2942,16 +3072,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 34.29) (xy 162.56 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68e3a12-66ad-41b2-a823-5acc0d6411bf")
-	)
-	(wire
-		(pts
 			(xy 118.11 34.29) (xy 118.11 54.61)
 		)
 		(stroke
@@ -2992,13 +3112,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 40.64) (xy 139.7 40.64)
+			(xy 86.36 83.82) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df072ad2-9676-426a-9ef9-c726877e18d0")
+		(uuid "dea4641a-1596-4657-bbe3-6e24d549fdfb")
+	)
+	(wire
+		(pts
+			(xy 147.32 34.29) (xy 147.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04da356-a683-4f69-97f2-2bd724479c28")
 	)
 	(wire
 		(pts
@@ -3022,16 +3152,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 34.29) (xy 151.13 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e590cb1b-aa28-4b83-ac17-b9cde7c15249")
-	)
-	(wire
-		(pts
 			(xy 179.07 85.09) (xy 179.07 59.69)
 		)
 		(stroke
@@ -3039,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "e5d5b204-0f10-4a80-974e-860d7e2956d9")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6891750-a9ae-4dba-9702-8fc8c197b035")
 	)
 	(wire
 		(pts
@@ -3052,13 +3182,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 88.9 40.64)
+			(xy 151.13 34.29) (xy 151.13 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee8ee15e-88f4-4e6b-ae56-58dfb982df12")
+		(uuid "e9d491d5-855f-45c5-a1fa-19dc82d85766")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 46.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb95a684-863a-4ae9-8348-9f0ed0adb4d5")
 	)
 	(wire
 		(pts
@@ -3079,16 +3219,6 @@
 			(type default)
 		)
 		(uuid "f0ae144c-a83e-4b32-9a62-50ef54c85e4d")
-	)
-	(wire
-		(pts
-			(xy 167.64 40.64) (xy 171.45 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a2cd4e-da61-4074-9a6c-081476c3bfd9")
 	)
 	(wire
 		(pts
@@ -3649,8 +3779,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 40.64 0)
+		(lib_id "power:+3.3V")
+		(at 100.33 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3659,9 +3789,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "10c5adf1-b83f-4ef3-85a6-2fe9867a5fb9")
-		(property "Reference" "#PWR0117"
-			(at 88.9 46.99 0)
+		(uuid "0d38eff6-39a6-4af0-91e8-bbc6a57009c0")
+		(property "Reference" "#PWR0106"
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3671,8 +3801,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 88.9 45.72 0)
+		(property "Value" "+3.3V"
+			(at 100.33 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3682,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 40.64 0)
+			(at 100.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 40.64 0)
+			(at 100.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3703,8 +3833,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 100.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,12 +3845,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a938f19-c021-40eb-8f3d-7f9a975c3298")
+			(uuid "b5a6d720-ef71-4a00-8e59-6e54a94e1bab")
 		)
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "#PWR0117")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4269,7 +4399,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 162.56 29.21 90)
+		(at 153.67 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4277,30 +4407,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "272630d8-044f-4d61-b35b-190d09f99031")
 		(property "Reference" "J118"
-			(at 163.83 22.86 90)
+			(at 149.86 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "RADIO"
-			(at 163.83 25.4 90)
+			(at 149.86 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 162.56 29.21 0)
+			(at 153.67 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4311,7 +4442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 29.21 0)
+			(at 153.67 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,7 +4453,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 29.21 0)
+			(at 153.67 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,6 +4479,86 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "J118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 35.56 74.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e2195e3-9e47-4855-8863-4fd42d343994")
+		(property "Reference" "J121"
+			(at 30.48 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 30.48 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 35.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e18d7f8-ab57-443f-b64f-9392e9c1f019")
+		)
+		(pin "2"
+			(uuid "758bf783-82e2-4135-9932-fa61915bf578")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "J121")
 					(unit 1)
 				)
 			)
@@ -4537,8 +4748,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 82.55 29.21 90)
+		(lib_id "power:+3.3V")
+		(at 46.99 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4546,9 +4758,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3776b42c-0cd7-45f1-8dcd-23853fa432ba")
-		(property "Reference" "J119"
-			(at 83.82 22.86 90)
+		(fields_autoplaced yes)
+		(uuid "4be2fbe1-073b-494a-87af-0ee96b886b3c")
+		(property "Reference" "#PWR0118"
+			(at 46.99 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4557,8 +4771,8 @@
 				)
 			)
 		)
-		(property "Value" "POWER"
-			(at 83.82 25.4 90)
+		(property "Value" "+3.3V"
+			(at 46.99 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4567,8 +4781,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 82.55 29.21 0)
+		(property "Footprint" ""
+			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +4793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 29.21 0)
+			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4589,8 +4803,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 82.55 29.21 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,15 +4815,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "471cac24-222b-4d1f-8374-281d53ac5f86")
-		)
-		(pin "2"
-			(uuid "5a08d62c-c93e-4084-ba3c-73a4962a7ea3")
+			(uuid "1ce3c7b0-7d7f-48f1-9678-99dc8b1b1b2b")
 		)
 		(instances
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "J119")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -4799,8 +5010,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 146.05 29.21 90)
+		(lib_id "power:+3.3V")
+		(at 46.99 55.88 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4808,31 +5020,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "51724864-c70d-4675-99e6-2f1df4bcc9bc")
-		(property "Reference" "J105"
-			(at 142.24 22.86 90)
+		(fields_autoplaced yes)
+		(uuid "50f9a8c5-b7fa-4f28-93a6-4084ff5df51c")
+		(property "Reference" "#PWR0114"
+			(at 46.99 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SWD"
-			(at 142.24 25.4 90)
+		(property "Value" "+3.3V"
+			(at 46.99 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
-			(at 146.05 29.21 0)
+		(property "Footprint" ""
+			(at 46.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +5055,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 29.21 0)
+			(at 46.99 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79b6f48c-867e-49ec-aed1-3fb18c288c3f")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 142.24 29.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51724864-c70d-4675-99e6-2f1df4bcc9bc")
+		(property "Reference" "J105"
+			(at 138.43 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SWD"
+			(at 138.43 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
+			(at 142.24 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,7 +5144,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 146.05 29.21 0)
+			(at 142.24 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5248,6 +5538,165 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 46.99 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b779fd9-117a-449e-9d2d-54d2c5a1844e")
+		(property "Reference" "#PWR0119"
+			(at 46.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b75f1c9e-c2cd-4cb6-8faf-54ad43a07f0c")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 35.56 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c14cb4d-1722-4d50-893f-eb69743637ab")
+		(property "Reference" "J122"
+			(at 30.48 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 30.48 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 35.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d56795e0-e293-455b-a8a6-4410c343c292")
+		)
+		(pin "2"
+			(uuid "1da9b8c9-eee8-4a04-ace3-15fd40aa4009")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "J122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 254 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -5319,6 +5768,93 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 165.1 29.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "669b86fe-d1ee-48b8-b65b-96095ca54d3e")
+		(property "Reference" "J120"
+			(at 161.29 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GNSS"
+			(at 161.29 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 165.1 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffecebe0-426f-4b40-8f2b-4d1e36a7ab12")
+		)
+		(pin "3"
+			(uuid "9274eb87-a941-400e-9e08-c213cf5f78a1")
+		)
+		(pin "2"
+			(uuid "2b1b18ae-9f0d-4f45-8972-8e6b7f95306b")
+		)
+		(pin "4"
+			(uuid "2d9ef90c-1427-4296-b28b-93a2add951a7")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "J120")
 					(unit 1)
 				)
 			)
@@ -5497,6 +6033,85 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "H104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 46.99 74.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e58fb6d-4f2b-4eab-b89f-dbcd589ca55f")
+		(property "Reference" "#PWR0116"
+			(at 46.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 46.99 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60430728-a399-420c-a0fd-0aba70aff435")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -5920,6 +6535,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 46.99 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9393fca9-668a-4ca2-96b1-518363ea91c2")
+		(property "Reference" "#PWR0115"
+			(at 46.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f1cac19-8561-4ccd-812d-44354939a36b")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 153.67 184.15 270)
 		(unit 1)
@@ -6178,84 +6872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a127cd82-97a2-4622-9e83-71907e99284f")
-		(property "Reference" "#PWR0114"
-			(at 171.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5afbf75-67e8-489a-851a-f3a74d5b799e")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 262.89 105.41 0)
 		(unit 1)
@@ -6433,6 +7049,84 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "J116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d9d720-6d05-446c-8e3d-c2032b700518")
+		(property "Reference" "#PWR0107"
+			(at 100.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8d1c33e-847e-4ab0-bf9c-f7ea638c4e7a")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6757,162 +7451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 139.7 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3c4ccd4-818b-4363-be62-b583d47e9835")
-		(property "Reference" "#PWR0106"
-			(at 139.7 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 139.7 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df72f57e-10a0-4a52-b426-efe31801e2ed")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 156.21 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1128a0a-904b-4e88-8362-cd8f57d2ab9f")
-		(property "Reference" "#PWR0115"
-			(at 156.21 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 156.21 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93d543ce-4921-49dc-b2e4-077d8c442ffa")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 162.56 184.15 270)
 		(unit 1)
@@ -7087,6 +7625,85 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "J106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42c59f9-9113-4beb-9e94-7aa4f044ba94")
+		(property "Reference" "#PWR0117"
+			(at 46.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bb8c154-ba29-4b4f-b1a3-630f6b7d5ea6")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7432,84 +8049,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 78.74 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "debd1ad2-65a8-41e1-81e7-ff69ba457567")
-		(property "Reference" "#PWR0116"
-			(at 78.74 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 78.74 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 78.74 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdacbced-a271-494f-839a-0d33d1fed83a")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -8180,6 +8719,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 35.56 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2dceb29-6a19-415b-8575-9a717a82e7c3")
+		(property "Reference" "J119"
+			(at 30.48 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 30.48 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9b4a03f-8e53-463a-919f-1c5c15684ed1")
+		)
+		(pin "2"
+			(uuid "438e99a9-6371-4d45-83cb-bf61cb938976")
+		)
+		(instances
+			(project "polaris"
+				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
+					(reference "J119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 107.95 0)
 		(unit 1)
@@ -8252,84 +8871,6 @@
 			(project "polaris"
 				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f692f3c4-4631-47d5-8cc7-eb014b4da75a")
-		(property "Reference" "#PWR0107"
-			(at 154.94 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c3cbb24-97a9-4ca4-830e-d28c9ade36ed")
-		)
-		(instances
-			(project "polaris"
-				(path "/cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -8856,7 +9397,7 @@
 			)
 		)
 		(pin "SYS_SWDIO" bidirectional
-			(at 146.05 54.61 90)
+			(at 142.24 54.61 90)
 			(uuid "bedd6cfd-ff2c-4c70-9730-259e7838247e")
 			(effects
 				(font
@@ -8926,7 +9467,7 @@
 			)
 		)
 		(pin "SYS_SWCLK" bidirectional
-			(at 148.59 54.61 90)
+			(at 144.78 54.61 90)
 			(uuid "087b26fc-7410-457a-9893-d5709e6455a1")
 			(effects
 				(font
@@ -8976,7 +9517,7 @@
 			)
 		)
 		(pin "RF_TX" output
-			(at 162.56 54.61 90)
+			(at 156.21 54.61 90)
 			(uuid "72876aaf-5a5b-4965-bbf7-d28df582634d")
 			(effects
 				(font
@@ -8986,8 +9527,38 @@
 			)
 		)
 		(pin "RF_RX" input
-			(at 165.1 54.61 90)
+			(at 153.67 54.61 90)
 			(uuid "5fec7f42-2646-4714-bd26-c9b188db237f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_VCC" input
+			(at 110.49 83.82 180)
+			(uuid "6f762f6b-1338-4dd2-8a50-93969cc4e3ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GNSS_TX" input
+			(at 165.1 54.61 90)
+			(uuid "1cfb0c1c-44e2-4a9e-b00f-0ba763e2590f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNSS_RX" output
+			(at 167.64 54.61 90)
+			(uuid "e8b11da8-f2b4-451e-bd60-c10987afb17c")
 			(effects
 				(font
 					(size 1.27 1.27)

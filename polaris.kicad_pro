@@ -63,7 +63,7 @@
           "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.8
@@ -216,7 +216,8 @@
         0.4,
         0.6,
         1.0,
-        1.2
+        1.2,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -1022,7 +1023,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "R101",
+    "used_designators": "#PWR106-107,#PWR114-119,J119-122",
     "variants": []
   },
   "sheets": [
