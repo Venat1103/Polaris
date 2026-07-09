@@ -959,7 +959,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1023,7 +1023,7 @@
         "uuid": "cfb90e19-9fbe-47a1-a5ac-df522853d1d0"
       }
     ],
-    "used_designators": "#PWR106-107,#PWR114-119,J119-122",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
