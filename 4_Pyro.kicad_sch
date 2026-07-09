@@ -3696,7 +3696,7 @@
 		)
 		(uuid "fdbb9b71-db03-4feb-a047-76840809922e")
 	)
-	(label "PYRO_C5"
+	(label "PYRO_C4"
 		(at 44.45 153.67 0)
 		(effects
 			(font
@@ -3716,7 +3716,7 @@
 		)
 		(uuid "443378b2-b717-41b2-904a-f471cba609c4")
 	)
-	(label "PYRO_C4"
+	(label "PYRO_C5"
 		(at 44.45 156.21 0)
 		(effects
 			(font
@@ -9330,7 +9330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 215.5952 156.21 0)
 			(hide yes)
 			(show_name no)
