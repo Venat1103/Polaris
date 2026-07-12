@@ -98,6 +98,7 @@ void Error_Handler(void);
 #define PYRO_SENSE_GPIO_Port GPIOA
 #define ICM_INT_Pin GPIO_PIN_3
 #define ICM_INT_GPIO_Port GPIOA
+#define ICM_INT_EXTI_IRQn EXTI3_IRQn
 #define Servo2_Pin GPIO_PIN_9
 #define Servo2_GPIO_Port GPIOE
 #define Servo3_Pin GPIO_PIN_11
@@ -108,6 +109,7 @@ void Error_Handler(void);
 #define Servo5_GPIO_Port GPIOE
 #define LSM_INT_Pin GPIO_PIN_12
 #define LSM_INT_GPIO_Port GPIOB
+#define LSM_INT_EXTI_IRQn EXTI15_10_IRQn
 #define Servo0_Pin GPIO_PIN_14
 #define Servo0_GPIO_Port GPIOB
 #define Servo1_Pin GPIO_PIN_15
@@ -126,6 +128,7 @@ void Error_Handler(void);
 #define Fire1_GPIO_Port GPIOC
 #define LPS_INT_Pin GPIO_PIN_9
 #define LPS_INT_GPIO_Port GPIOA
+#define LPS_INT_EXTI_IRQn EXTI9_5_IRQn
 #define BUZZER_Pin GPIO_PIN_0
 #define BUZZER_GPIO_Port GPIOD
 #define STAT1_Pin GPIO_PIN_4
