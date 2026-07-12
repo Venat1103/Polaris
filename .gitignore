@@ -3,6 +3,9 @@
 /stm_firmware/.settings
 /stm_firmware/Debug
 /stm_firmware/stm_firmware.launch
+/stm_firmware_halmx/.settings
+/stm_firmware_halmx/Debug
+/stm_firmware_halmx/stm_firmware_halmx.launch
 /.history
 /*.kicad*
 README.pdf
