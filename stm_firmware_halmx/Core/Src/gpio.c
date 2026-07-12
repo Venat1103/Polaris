@@ -53,18 +53,18 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, MUX_A_Pin|GPIO_PIN_14|MUX_C_Pin|MUX_EN_Pin
-                          |Fire0_Pin|Fire1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, MUX_BIT_A_Pin|MUX_BIT_B_Pin|MUX_BIT_C_Pin|MUX_EN_Pin
+                          |IGNITER_0_Pin|IGNITER_1_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, Main0_Pin|Main1_Pin|Drogue0_Pin|Drogue1_Pin
-                          |BUZZER_Pin|STAT1_Pin|STAT2_Pin|STAT3_Pin
-                          |STAT4_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOD, MAIN_PYRO_0_Pin|MAIN_PYRO_1_Pin|DROGUE_PYRO_0_Pin|DROGUE_PYRO_1_Pin
+                          |BUZZER_Pin|STAT_LED_0_Pin|STAT_LED_1_Pin|STAT_LED_2_Pin
+                          |STAT_LED_3_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : MUX_A_Pin PC14 MUX_C_Pin Fire0_Pin
-                           Fire1_Pin */
-  GPIO_InitStruct.Pin = MUX_A_Pin|GPIO_PIN_14|MUX_C_Pin|Fire0_Pin
-                          |Fire1_Pin;
+  /*Configure GPIO pins : MUX_BIT_A_Pin MUX_BIT_B_Pin MUX_BIT_C_Pin IGNITER_0_Pin
+                           IGNITER_1_Pin */
+  GPIO_InitStruct.Pin = MUX_BIT_A_Pin|MUX_BIT_B_Pin|MUX_BIT_C_Pin|IGNITER_0_Pin
+                          |IGNITER_1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -77,40 +77,34 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(MUX_EN_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PYRO_SENSE_Pin */
-  GPIO_InitStruct.Pin = PYRO_SENSE_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(PYRO_SENSE_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : ICM_INT_Pin LPS_INT_Pin */
-  GPIO_InitStruct.Pin = ICM_INT_Pin|LPS_INT_Pin;
+  /*Configure GPIO pins : IMU0_ICM_INT_Pin BARO1_LPS_INT_Pin */
+  GPIO_InitStruct.Pin = IMU0_ICM_INT_Pin|BARO1_LPS_INT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : LSM_INT_Pin */
-  GPIO_InitStruct.Pin = LSM_INT_Pin;
+  /*Configure GPIO pin : IMU1_LSM_INT_Pin */
+  GPIO_InitStruct.Pin = IMU1_LSM_INT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(LSM_INT_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(IMU1_LSM_INT_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : Main0_Pin Main1_Pin Drogue0_Pin Drogue1_Pin
-                           BUZZER_Pin STAT1_Pin STAT2_Pin STAT3_Pin
-                           STAT4_Pin */
-  GPIO_InitStruct.Pin = Main0_Pin|Main1_Pin|Drogue0_Pin|Drogue1_Pin
-                          |BUZZER_Pin|STAT1_Pin|STAT2_Pin|STAT3_Pin
-                          |STAT4_Pin;
+  /*Configure GPIO pins : MAIN_PYRO_0_Pin MAIN_PYRO_1_Pin DROGUE_PYRO_0_Pin DROGUE_PYRO_1_Pin
+                           BUZZER_Pin STAT_LED_0_Pin STAT_LED_1_Pin STAT_LED_2_Pin
+                           STAT_LED_3_Pin */
+  GPIO_InitStruct.Pin = MAIN_PYRO_0_Pin|MAIN_PYRO_1_Pin|DROGUE_PYRO_0_Pin|DROGUE_PYRO_1_Pin
+                          |BUZZER_Pin|STAT_LED_0_Pin|STAT_LED_1_Pin|STAT_LED_2_Pin
+                          |STAT_LED_3_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PD1 */
-  GPIO_InitStruct.Pin = GPIO_PIN_1;
+  /*Configure GPIO pin : SD_CD_Pin */
+  GPIO_InitStruct.Pin = SD_CD_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+  HAL_GPIO_Init(SD_CD_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PB3_Pin PB4_Pin PB5_Pin */
   GPIO_InitStruct.Pin = PB3_Pin|PB4_Pin|PB5_Pin;

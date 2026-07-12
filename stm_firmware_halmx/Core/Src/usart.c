@@ -105,7 +105,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
     PA0-WKUP     ------> UART4_TX
     PA1     ------> UART4_RX
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
+    GPIO_InitStruct.Pin = GNSS_TX_Pin|GNSS_RX_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
@@ -169,7 +169,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
     PE7     ------> UART5_RX
     PE8     ------> UART5_TX
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_8;
+    GPIO_InitStruct.Pin = RF_RX_Pin|RF_TX_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
@@ -237,7 +237,7 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
     PA0-WKUP     ------> UART4_TX
     PA1     ------> UART4_RX
     */
-    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_0|GPIO_PIN_1);
+    HAL_GPIO_DeInit(GPIOA, GNSS_TX_Pin|GNSS_RX_Pin);
 
     /* UART4 DMA DeInit */
     HAL_DMA_DeInit(uartHandle->hdmatx);
@@ -261,7 +261,7 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
     PE7     ------> UART5_RX
     PE8     ------> UART5_TX
     */
-    HAL_GPIO_DeInit(GPIOE, GPIO_PIN_7|GPIO_PIN_8);
+    HAL_GPIO_DeInit(GPIOE, RF_RX_Pin|RF_TX_Pin);
 
     /* UART5 DMA DeInit */
     HAL_DMA_DeInit(uartHandle->hdmatx);
