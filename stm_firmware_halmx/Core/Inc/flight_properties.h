@@ -48,7 +48,22 @@ typedef struct {
 
 // to be used for internal calculations, not logged onto SD card
 typedef struct {
-    
+    uint8_t imu0_raw_data[14];
+    uint8_t imu0_raw_current_timestamp[3];
+    float imu0_temperature; // c
+    float imu0_acceleration[3]; // g
+    float imu0_angular_velocity[3]; // dps
+    uint32_t imu0_last_timestamp; // us
+    uint32_t imu0_current_timestamp; // us
+    float imu0_velocity[3]; // g * s
+    float imu0_displacement[3]; // g * s^2
+    float imu0_orientation[3]; // deg
+
 } Flight_Variables;
+
+typedef struct {
+    Flight_Data* data;
+    Flight_Variables* variables;
+} Flight_Properties;
 
 #endif

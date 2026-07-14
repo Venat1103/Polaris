@@ -54,8 +54,23 @@ extern "C" {
 //////////////////////////
 
 #include "machine/fsm.h"
+#include "machine/machine.h"
 #include "machine/state_functions.h"
 #include "machine/transition_functions.h"
+
+///////////////////
+// DEBUG LOGGING //
+///////////////////
+#include <stdio.h>
+#if defined(DEBUG_LOGGING)
+  int _write(int file, char *ptr, int len);
+
+  extern uint32_t last_1;
+
+  char* get_state_string(Flight_State state);
+
+  int get_decimals(float num, int num_decimals);
+#endif
 
 /* USER CODE END Includes */
 

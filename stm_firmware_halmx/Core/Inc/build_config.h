@@ -19,7 +19,7 @@
 // FEATURES //
 //////////////
 
-#define MEASURE_CHAMBER_PRESSURE
+// #define MEASURE_CHAMBER_PRESSURE
 
 /////////////////////
 // ACTUATION SYSTEM //
