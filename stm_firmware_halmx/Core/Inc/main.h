@@ -57,12 +57,6 @@ extern "C" {
 #include "machine/state_functions.h"
 #include "machine/transition_functions.h"
 
-/////////////////
-// PERIPHERALS //
-/////////////////
-
-uint32_t millis();
-uint32_t micros();
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -84,7 +78,12 @@ uint32_t micros();
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
+/////////////////
+// PERIPHERALS //
+/////////////////
 
+uint32_t millis();
+uint32_t micros();
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

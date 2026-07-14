@@ -26,7 +26,6 @@
 
 SD_HandleTypeDef hsd;
 DMA_HandleTypeDef hdma_sdio_tx;
-DMA_HandleTypeDef hdma_sdio_rx;
 
 /* SDIO init function */
 
@@ -131,27 +130,6 @@ void HAL_SD_MspInit(SD_HandleTypeDef* sdHandle)
 
     __HAL_LINKDMA(sdHandle,hdmatx,hdma_sdio_tx);
 
-    /* SDIO_RX Init */
-    hdma_sdio_rx.Instance = DMA2_Stream3;
-    hdma_sdio_rx.Init.Channel = DMA_CHANNEL_4;
-    hdma_sdio_rx.Init.Direction = DMA_PERIPH_TO_MEMORY;
-    hdma_sdio_rx.Init.PeriphInc = DMA_PINC_DISABLE;
-    hdma_sdio_rx.Init.MemInc = DMA_MINC_ENABLE;
-    hdma_sdio_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_WORD;
-    hdma_sdio_rx.Init.MemDataAlignment = DMA_MDATAALIGN_WORD;
-    hdma_sdio_rx.Init.Mode = DMA_PFCTRL;
-    hdma_sdio_rx.Init.Priority = DMA_PRIORITY_LOW;
-    hdma_sdio_rx.Init.FIFOMode = DMA_FIFOMODE_ENABLE;
-    hdma_sdio_rx.Init.FIFOThreshold = DMA_FIFO_THRESHOLD_FULL;
-    hdma_sdio_rx.Init.MemBurst = DMA_MBURST_INC4;
-    hdma_sdio_rx.Init.PeriphBurst = DMA_PBURST_INC4;
-    if (HAL_DMA_Init(&hdma_sdio_rx) != HAL_OK)
-    {
-      Error_Handler();
-    }
-
-    __HAL_LINKDMA(sdHandle,hdmarx,hdma_sdio_rx);
-
     /* SDIO interrupt Init */
     HAL_NVIC_SetPriority(SDIO_IRQn, 0, 0);
     HAL_NVIC_EnableIRQ(SDIO_IRQn);
@@ -188,7 +166,6 @@ void HAL_SD_MspDeInit(SD_HandleTypeDef* sdHandle)
 
     /* SDIO DMA DeInit */
     HAL_DMA_DeInit(sdHandle->hdmatx);
-    HAL_DMA_DeInit(sdHandle->hdmarx);
 
     /* SDIO interrupt Deinit */
     HAL_NVIC_DisableIRQ(SDIO_IRQn);

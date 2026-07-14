@@ -20,6 +20,7 @@ typedef enum {
     Flight_State_Recovery
 } Flight_State;
 
+// to be logged onto SD card
 typedef struct {
     #if defined(MEASURE_CHAMBER_PRESSURE)
         float chamber_pressure;
@@ -44,5 +45,10 @@ typedef struct {
     float gps_coordinates[2];
     int gps_lock;
 } Flight_Data;
+
+// to be used for internal calculations, not logged onto SD card
+typedef struct {
+    
+} Flight_Variables;
 
 #endif

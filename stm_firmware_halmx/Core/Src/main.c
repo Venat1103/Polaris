@@ -253,7 +253,7 @@ void machine_heartbeat(FSM* fsm) {
 
       printf("GPS Lock: %i Satellites\r\n", data->gps_lock);
 
-      HAL_GPIO_TogglePin(GPIOA, 5);
+      HAL_GPIO_TogglePin(STAT_LED_0_GPIO_Port, STAT_LED_0_Pin);
     }
   #endif
 }
