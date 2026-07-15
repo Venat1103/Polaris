@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="U5SPXlk_4JBw0Uq3KNKe">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lpwiuCsk8HS7syyahveV-3" edge="1" parent="1" source="lpwiuCsk8HS7syyahveV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lpwiuCsk8HS7syyahveV-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-6" edge="1" parent="1" source="lpwiuCsk8HS7syyahveV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lpwiuCsk8HS7syyahveV-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;direction=south;" value="Start peripherals (check main.c for details)" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-8" edge="1" parent="1" source="lpwiuCsk8HS7syyahveV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lpwiuCsk8HS7syyahveV-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="FSM Heartbeat()" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-12" edge="1" parent="1" source="lpwiuCsk8HS7syyahveV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="FSM Heartbeat core()" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-25" edge="1" parent="1" source="lpwiuCsk8HS7syyahveV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lpwiuCsk8HS7syyahveV-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Current State Heartbeat()" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-26" edge="1" parent="1" source="lpwiuCsk8HS7syyahveV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lpwiuCsk8HS7syyahveV-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-27" connectable="0" parent="lpwiuCsk8HS7syyahveV-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="True" vertex="1">
+          <mxGeometry relative="1" x="0.0149" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="If check transitions enabled" vertex="1">
+          <mxGeometry height="110" width="115" x="368" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-24" edge="1" parent="1" source="lpwiuCsk8HS7syyahveV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lpwiuCsk8HS7syyahveV-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-28" connectable="0" parent="lpwiuCsk8HS7syyahveV-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.2571" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-22" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="If valid condition returns" vertex="1">
+          <mxGeometry height="100" width="100" x="550" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Current State Exit()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FSM State Change&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;New State Enter()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="720" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwiuCsk8HS7syyahveV-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Use TIM at different speeds and INT to schedule SDIO, RF, GNSS, IMUs, BAROs" vertex="1">
+          <mxGeometry height="140" width="170" x="170" y="790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
