@@ -77,11 +77,11 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(MUX_EN_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : IMU0_ICM_INT_Pin BARO1_LPS_INT_Pin */
-  GPIO_InitStruct.Pin = IMU0_ICM_INT_Pin|BARO1_LPS_INT_Pin;
+  /*Configure GPIO pin : IMU0_ICM_INT_Pin */
+  GPIO_InitStruct.Pin = IMU0_ICM_INT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init(IMU0_ICM_INT_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : IMU1_LSM_INT_Pin */
   GPIO_InitStruct.Pin = IMU1_LSM_INT_Pin;
@@ -99,6 +99,12 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : BARO1_LPS_INT_Pin */
+  GPIO_InitStruct.Pin = BARO1_LPS_INT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(BARO1_LPS_INT_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : SD_CD_Pin */
   GPIO_InitStruct.Pin = SD_CD_Pin;
