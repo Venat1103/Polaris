@@ -127,14 +127,14 @@ Open source flight computer
     SDA | Data | PC 9 | AF 4 | Open Drain
     INT | Interrupt | PA 9 | Input
 
-- ### NEO 7M `GPS` - USART 4
+- ### Quectel L89HA `GNSS` - USART 4
 
     | Function | Description | GPIO | Pin Mode
     |-|-|-|-|
     TX | Transmit | PA 0 | AF 8
     RX | Receive | PA 1 | AF 8
 
-- ### Ai LoRaWAN Ra-08 (H) `RF` - USART 5
+- ### Ra-01SH SX1262 `RF` - USART 5
 
     | Function | Description | GPIO | Pin Mode
     |-|-|-|-|
