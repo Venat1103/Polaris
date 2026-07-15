@@ -1,5 +1,5 @@
 # LSM 6DSO `IMU 1` | `SPI 2`
-  - ## User Bank 0 Registers
+  - ## Registers
     | Addr (Hex) | Register Name | Data |
     |-|-|-|
     01 | FUNC_CFG_ACCESS |
